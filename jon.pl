@@ -65,6 +65,7 @@ while($doChatLoop == 1){
 
 #FIND WORD PART OF SPEECH IN DATABASE LEVEL 2
 	my $dbWordFound = 0;
+	my $wordInDB = 1;
 	my $interestWordPartOfSpeech = "";
 	my $hasResponseSaved = 0;
 	my @currentDB;
@@ -166,7 +167,12 @@ while($doChatLoop == 1){
 		}
 		untie @currentDB;
 
-		$dbWordFound = 1;
+		if($dbWordFound == 0){
+
+			$wordInDB = 0;
+			$dbWordFound = 1;
+
+		}
 
 	}
 
@@ -224,7 +230,10 @@ while($doChatLoop == 1){
 #GET RANDOM WORDS FROM DATABASE LEVEL 2
 	if($hasResponseSaved == 0){
 
+		if($wordInDB == 0){
 
+
+		}
 
 	}
 

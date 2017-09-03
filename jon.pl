@@ -52,11 +52,18 @@ while($doChatLoop == 1){
 	}
 
 #GET INTERESTING WORD POSITION
-	my @interestWordsArray;
+
+	#vars
 	my $interestWordPos;
-	tie @interestWordsArray, 'Tie::File', "db1.txt" or die;
-	$interestWordPos = $interestWordsArray[$sentenceType - 1];
-	untie @interestWordsArray;
+	my $randChance = int(rand(10));
+
+	#if I'm gonna use the one with the highest rating
+	if($randChance <= 8){
+		$interestWordPos = highestDB1Position($sentenceType);
+	}
+	else{
+		$interestWordPos = int(rand(11)) / 10;
+	}
 
 	#balance interesting word position off of user input size
 	my $balancedPosition = $interestWordPos * @user_words;
@@ -231,7 +238,7 @@ while($doChatLoop == 1){
 #CHOOSE A SENTENCE STRUCTURE
 
 	#vars
-	my $randChance = int(rand(10));
+	$randChance = int(rand(10));
 	my @sentences;
 	my @sentencesPossible;
 	my $sentenceStructure;
@@ -312,12 +319,13 @@ while($doChatLoop == 1){
 	}
 
 #USER RATING
+if($doChatLoop == 1){
 
-	print "How Would You Rate My Response? (1-5)\n";
+	print "\nHow Would You Rate My Response? (1-5)\n";
 
 	my $rating = <STDIN>;
 	chomp $rating;
 
-	
+}
 
 }

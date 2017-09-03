@@ -6,10 +6,10 @@ use Exporter;
 our @ISA= qw( Exporter );
 
 # these CAN be exported.
-our @EXPORT_OK = qw( isValidWord textFileToArray isProbableQuestion fixString isProbableImperative isProbableExclamatory makeSentenceStructure responseKeyType arrayFromStructure );
+our @EXPORT_OK = qw( isValidWord textFileToArray isProbableQuestion fixString isProbableImperative isProbableExclamatory makeSentenceStructure responseKeyType arrayFromStructure highestDB1Position );
 
 # these are exported by default.
-our @EXPORT = qw( isValidWord textFileToArray isProbableQuestion fixString isProbableImperative isProbableExclamatory makeSentenceStructure responseKeyType arrayFromStructure );
+our @EXPORT = qw( isValidWord textFileToArray isProbableQuestion fixString isProbableImperative isProbableExclamatory makeSentenceStructure responseKeyType arrayFromStructure highestDB1Position );
 
 sub isValidWord{
 
@@ -238,6 +238,57 @@ sub arrayFromStructure {
 	}
 
 	return @out;
+
+}
+
+sub highestDB1Position {
+
+	#vars
+	my $sentenceType = $_[0];
+	my $mindex;
+	my $highValue = 0;
+	my $highIndex = $mindex;
+	my @interestWordsArray;
+	my $splitString = "spl";
+	my $outPos = 0;
+
+	#where in the database should I start?
+	if($sentenceType == 1){
+		$mindex = 0;
+	}
+	if($sentenceType == 2){
+		$mindex = 11;
+	}
+	if($sentenceType == 3){
+		$mindex = 22;
+	}
+	if($sentenceType == 4){
+		$mindex = 33;
+	}
+
+	#read the db
+	tie @interestWordsArray, 'Tie::File', "typeRatings.txt" or die;
+
+	#for each position of my sentence type
+	for(my $i = $mindex; $i < ($mindex + 11); $i++){
+
+		#get the values at this row
+		my @ratings = split / $splitString /, $interestWordsArray[$i];
+
+		#if it has the highest rating so far, save it
+		if($ratings[1] > $highValue){
+
+			$highValue = $ratings[1];
+			$highIndex = $i;
+			$outPos = $ratings[0];
+
+		}
+
+	}
+
+	untie @interestWordsArray;
+
+	return $outPos;
 
 }
 

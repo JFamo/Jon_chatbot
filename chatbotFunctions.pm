@@ -190,7 +190,7 @@ sub makeSentenceStructure {
 		if($rand == 7){
 			$part = "conjunction";
 		}
-		$outStr .= " " . $part;
+		$outStr .= $part . " ";
 
 	}
 
@@ -225,13 +225,7 @@ sub arrayFromStructure {
 
 	#vars
 	my $str = $_[0];
-	my $randomStruct = $_[1];
 	my @out;
-
-	#break down input into just sentence parts if not random
-	if($randomStruct == 0){
-		$str = substr $str, 0, index($str, "ResponseRatingD");
-	}
 
 	#put in array
 	@out = split / /, $str;

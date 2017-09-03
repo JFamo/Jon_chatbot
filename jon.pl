@@ -244,25 +244,20 @@ while($doChatLoop == 1){
 		$randChance = 9;
 	}
 
-	#loop through all recorded responses
+	#loop through all possible structures
 	for(my $i = 0; $i < @sentences; $i ++){
 
-		#loop through all possible ratings to see which it has
-		for(my $q = 1; $q <= 5; $q ++){
+		my $splitString = "ResponseRating";
 
-			#if it has that rating for the current sentence structure
-			if(index($sentences[$i], $q) != -1 && index($sentences[$i], $q) == index($sentences[$i], $responseKey) + 16){
+		#put the ratings on this structure into an array
+		my @structRatings = split / $splitString /, $sentences[$i];
 
-				#if it is a coherent sentence structure
-				if($q >= 3){
+		#if it is a coherent sentence structure
+		if($structRatings[$sentenceType] >= 3){
 
-					#make it a possible response
-					push @sentencesPossible, $sentences[$i];
-					last;
-
-				}
-
-			}
+			#make it a possible response
+			push @sentencesPossible, $structRatings[0];
+			last;
 
 		}
 
@@ -273,16 +268,12 @@ while($doChatLoop == 1){
 
 	if($randChance <= 7){
 		$sentenceStructure = $sentencesPossible[rand @sentencesPossible];
-		#get word array from sentence structure
-		@structure = arrayFromStructure($sentenceStructure, 0);
 	}
 	else{
 		$sentenceStructure = makeSentenceStructure();
-		#get word array from sentence structure
-		@structure = arrayFromStructure($sentenceStructure, 1);
 	}
-
-	
+	#get word array from sentence structure
+	@structure = arrayFromStructure($sentenceStructure);
 
 
 #GET RANDOM WORDS FROM DATABASE LEVEL 2
@@ -319,5 +310,14 @@ while($doChatLoop == 1){
 		}
 
 	}
+
+#USER RATING
+
+	print "How Would You Rate My Response? (1-5)\n";
+
+	my $rating = <STDIN>;
+	chomp $rating;
+
+	
 
 }

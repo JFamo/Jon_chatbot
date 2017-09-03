@@ -1,4 +1,40 @@
-1
-1
-1
-1
+0.1 spl 0 spl 0
+0.2 spl 0 spl 0
+0.3 spl 0 spl 0
+0.4 spl 0 spl 0
+0.5 spl 0 spl 0
+0.6 spl 0 spl 0
+0.7 spl 0 spl 0
+0.8 spl 0 spl 0
+0.9 spl 0 spl 0
+1 spl 0 spl 0
+0.1 spl 0 spl 0
+0.2 spl 0 spl 0
+0.3 spl 0 spl 0
+0.4 spl 0 spl 0
+0.5 spl 0 spl 0
+0.6 spl 0 spl 0
+0.7 spl 0 spl 0
+0.8 spl 0 spl 0
+0.9 spl 0 spl 0
+1 spl 0 spl 0
+0.1 spl 0 spl 0
+0.2 spl 0 spl 0
+0.3 spl 0 spl 0
+0.4 spl 0 spl 0
+0.5 spl 0 spl 0
+0.6 spl 0 spl 0
+0.7 spl 0 spl 0
+0.8 spl 0 spl 0
+0.9 spl 0 spl 0
+1 spl 0 spl 0
+0.1 spl 0 spl 0
+0.2 spl 0 spl 0
+0.3 spl 0 spl 0
+0.4 spl 0 spl 0
+0.5 spl 0 spl 0
+0.6 spl 0 spl 0
+0.7 spl 0 spl 0
+0.8 spl 0 spl 0
+0.9 spl 0 spl 0
+1 spl 0 spl 0

@@ -1,0 +1,6 @@
+i have a cool car ResponseRating 3
+i have a cool cat ResponseRating 2
+i have a cool house ResponseRating 5
+i have an awesome cat ResponseRating 4
+i have an amazing cat ResponseRating 4
+

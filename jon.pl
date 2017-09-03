@@ -51,8 +51,6 @@ while($doChatLoop == 1){
 		}
 	}
 
-	print $sentenceType . "\n";
-
 #GET INTERESTING WORD POSITION
 	my @interestWordsArray;
 	my $interestWordPos;
@@ -168,21 +166,67 @@ while($doChatLoop == 1){
 		}
 		untie @currentDB;
 
+		$dbWordFound = 1;
+
 	}
 
 #GET BEST MATCH FROM RESPONSE DATABASE
 	if($hasResponseSaved == 1){
-		
-		
+
+		my $responseRating = 0;
+		my @responses;
+
+		tie @responses, 'Tie::File', "responses.txt" or die;
+
+		#loop through all recorded responses
+		for(my $i = 0; $i < @responses; $i ++){
+
+			#if this is the right one
+			if(index($responses[$i], $interestWord) != -1){
+
+				#loop through all possible ratings to see which it has
+				for(my $q = 1; $q <= 5; $q ++){
+
+					if(index($responses[$i], $q) != -1 && index($responses[$i], $q) > index($responses[$i], "ResponseRating")){
+
+						if($q >= 3){
+
+							my $outStr;
+							$outStr = substr $responses[$i], 0, index($responses[$i], "ResponseRating") - 1;
+							print $outStr . "\n";
+							$responseRating = $q;
+							last;
+
+						}
+
+					}
+
+				}
+
+				if($responseRating != 0){
+
+					last;
+
+				}
+
+			}
+
+		}
+		if($responseRating == 0){
+
+			$hasResponseSaved = 0;
+
+		}
+
+		untie @responses;
 
 	}
-	else{
+#GET RANDOM WORDS FROM DATABASE LEVEL 2
+	if($hasResponseSaved == 0){
 
-		
+
 
 	}
-
-	print $interestWord;
 
 
 }

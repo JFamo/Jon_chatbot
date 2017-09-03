@@ -1,12 +1,24 @@
 #spooky witchcraft
 use strict;
 use warnings;
-use JoshFirstFunctions;
+use chatbotFunctions;
+use Tie::File;
+
+my tie @array, 'Tie::File', "adjs.txt" or die;
+
+for(my $i = 0; $i < @array; $i ++){
+
+	$array[$i] .= " 0";
+
+}
+
+untie @array;
+
+=pod
 
 #variables
 my $doChatLoop = 1; #loop variable
-my @usedlines; #array to hold already used text lines
-my @responses_possible; #array of possible responses
+my @userlines;
 
 my @chatlines = textFileToArray("convo");
 
@@ -180,3 +192,5 @@ while($doChatLoop == 1){
 	print $chosen_output . "\n";
 
 }
+
+=cut

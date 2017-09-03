@@ -6,55 +6,10 @@ use Exporter;
 our @ISA= qw( Exporter );
 
 # these CAN be exported.
-our @EXPORT_OK = qw( GetFibonacci Quadratic ReverseString isValidWord textFileToArray isProbableQuestion fixString );
+our @EXPORT_OK = qw( isValidWord textFileToArray isProbableQuestion fixString );
 
 # these are exported by default.
-our @EXPORT = qw( GetFibonacci Quadratic ReverseString isValidWord textFileToArray isProbableQuestion fixString );
-
-#a function to display fibonacci numbers, with the argument of how many to display
-sub GetFibonacci{
-
-	#vars
-		my $last_num = 1;
-		my $my_num = 0;
-		my $temp = 0;
-
-		#output and math
-		for my $i (1 .. $_[0]){
-			print $my_num . "\n";
-			$temp = $my_num;
-			$my_num += $last_num;
-			$last_num = $temp;
-		}
-
-}
-
-#a function to display the output of the quadratic formula, with arguments of A, B, and C
-sub Quadratic{
-
-	my $a = $_[0];
-	my $b = $_[1];
-	my $c = $_[2];
-
-	#math
-	my $out1 = ( (-$b) + sqrt ( ($b*$b) - ( 4 * $a * $c ) ) ) / ( 2 * $a );
-	my $out2 = ( (-$b) - sqrt ( ($b*$b) - ( 4 * $a * $c ) ) ) / ( 2 * $a );
-
-	#output
-	print "\nX : " . $out1;
-	print "\nX : " . $out2 . "\n";
-
-}
-
-#a function to display a reversed string, with a string argument
-sub ReverseString{
-
-	my $rev_output = reverse $_[0];
-
-	#output and math
-	print $rev_output . "\n";
-
-}
+our @EXPORT = qw( isValidWord textFileToArray isProbableQuestion fixString );
 
 sub isValidWord{
 

@@ -4,11 +4,13 @@ use warnings;
 use chatbotFunctions;
 use Tie::File;
 
-my tie @array, 'Tie::File', "adjs.txt" or die;
+my @array;
+
+tie @array, 'Tie::File', "adjs.txt" or die;
 
 for(my $i = 0; $i < @array; $i ++){
 
-	$array[$i] .= " 0";
+	$array[$i] =~ s/(.*?)\t//gi;
 
 }
 

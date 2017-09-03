@@ -1,1000 +1,1000 @@
-1	Be
-2	have
-3	DO
-4	say
-5	get
-6	make
-7	go
-8	see
-9	know
-10	take
-11	think
-12	come
-13	give
-14	look
-15	use
-16	find
-17	want
-18	Tell
-19	put
-20	mean
-21	become
-22	leave
-23	work
-24	need
-25	feel
-26	seem
-27	ask
-28	show
-29	try
-30	Call
-31	keep
-32	provide
-33	hold
-34	turn
-35	follow
-36	Begin
-37	bring
-38	like
-39	going
-40	help
-41	start
-42	run
-43	write
-44	Set
-45	move
-46	play
-47	pay
-48	hear
-49	include
-50	believe
-51	allow
-52	meet
-53	lead
-54	live
-55	stand
-56	happen
-57	carry
-58	talk
-59	appear
-60	produce
-61	sit
-62	offer
-63	consider
-64	expect
-65	suggest
-66	LET
-67	read
-68	require
-69	continue
-70	lose
-71	ADD
-72	change
-73	Fall
-74	remain
-75	remember
-76	buy
-77	speak
-78	stop
-79	send
-80	receive
-81	decide
-82	win
-83	understand
-84	describe
-85	develop
-86	agree
-87	open
-88	reach
-89	build
-90	involve
-91	spend
-92	return
-93	draw
-94	die
-95	Hope
-96	create
-97	walk
-98	sell
-99	wait
-100	cause
-101	pass
-102	Lie
-103	accept
-104	watch
-105	raise
-106	Base
-107	apply
-108	break
-109	explain
-110	learn
-111	increase
-112	cover
-113	grow
-114	claim
-115	report
-116	support
-117	cut
-118	form
-119	stay
-120	contain
-121	reduce
-122	establish
-123	join
-124	wish
-125	achieve
-126	seek
-127	choose
-128	deal
-129	face
-130	fail
-131	serve
-132	end
-133	kill
-134	occur
-135	drive
-136	represent
-137	rise
-138	discuss
-139	love
-140	pick
-141	place
-142	argue
-143	prove
-144	wear
-145	catch
-146	enjoy
-147	eat
-148	introduce
-149	enter
-150	present
-151	arrive
-152	ensure
-153	point
-154	plan
-155	pull
-156	refer
-157	act
-158	relate
-159	affect
-160	close
-161	identify
-162	manage
-163	thank
-164	compare
-165	announce
-166	obtain
-167	note
-168	forget
-169	indicate
-170	wonder
-171	maintain
-172	publish
-173	suffer
-174	avoid
-175	express
-176	suppose
-177	finish
-178	determine
-179	design
-180	listen
-181	save
-182	tend
-183	treat
-184	control
-185	share
-186	remove
-187	throw
-188	visit
-189	exist
-190	encourage
-191	force
-192	reflect
-193	admit
-194	assume
-195	smile
-196	prepare
-197	replace
-198	fill
-199	improve
-200	mention
-201	fight
-202	intend
-203	Miss
-204	discover
-205	drop
-206	hit
-207	push
-208	prevent
-209	refuse
-210	regard
-211	lay
-212	reveal
-213	Teach
-214	answer
-215	operate
-216	State
-217	depend
-218	enable
-219	record
-220	check
-221	complete
-222	cost
-223	sound
-224	laugh
-225	realise
-226	extend
-227	arise
-228	notice
-229	define
-230	examine
-231	fit
-232	study
-233	bear
-234	hang
-235	recognise
-236	shake
-237	sign
-238	attend
-239	fly
-240	gain
-241	perform
-242	result
-243	travel
-244	adopt
-245	confirm
-246	protect
-247	demand
-248	stare
-249	imagine
-250	attempt
-251	beat
-252	Born
-253	associate
-254	care
-255	marry
-256	collect
-257	voice
-258	employ
-259	issue
-260	release
-261	emerge
-262	mind
-263	aim
-264	deny
-265	Mark
-266	shoot
-267	appoint
-268	Order
-269	supply
-270	drink
-271	observe
-272	reply
-273	ignore
-274	link
-275	propose
-276	ring
-277	settle
-278	strike
-279	press
-280	respond
-281	arrange
-282	survive
-283	concentrate
-284	lift
-285	approach
-286	Cross
-287	test
-288	charge
-289	experience
-290	touch
-291	acquire
-292	commit
-293	demonstrate
-294	Grant
-295	prefer
-296	repeat
-297	sleep
-298	threaten
-299	feed
-300	insist
-301	launch
-302	limit
-303	promote
-304	deliver
-305	measure
-306	own
-307	retain
-308	assess
-309	attract
-310	belong
-311	consist
-312	contribute
-313	hide
-314	promise
-315	reject
-316	cry
-317	impose
-318	invite
-319	sing
-320	vary
-321	warn
-322	address
-323	declare
-324	destroy
-325	worry
-326	divide
-327	head
-328	name
-329	stick
-330	nod
-331	recognize
-332	train
-333	attack
-334	clear
-335	combine
-336	handle
-337	influence
-338	realize
-339	recommend
-340	shout
-341	spread
-342	undertake
-343	account
-344	select
-345	climb
-346	contact
-347	recall
-348	secure
-349	step
-350	transfer
-351	welcome
-352	conclude
-353	disappear
-354	display
-355	dress
-356	illustrate
-357	imply
-358	organise
-359	direct
-360	escape
-361	generate
-362	investigate
-363	remind
-364	advise
-365	afford
-366	earn
-367	hand
-368	inform
-369	rely
-370	succeed
-371	approve
-372	burn
-373	fear
-374	vote
-375	conduct
-376	cope
-377	derive
-378	elect
-379	gather
-380	jump
-381	last
-382	match
-383	matter
-384	persuade
-385	ride
-386	shut
-387	blow
-388	estimate
-389	recover
-390	score
-391	slip
-392	count
-393	hate
-394	attach
-395	exercise
-396	house
-397	lean
-398	roll
-399	wash
-400	accompany
-401	accuse
-402	bind
-403	explore
-404	judge
-405	rest
-406	steal
-407	comment
-408	exclude
-409	focus
-410	hurt
-411	stretch
-412	withdraw
-413	back
-414	fix
-415	justify
-416	knock
-417	pursue
-418	switch
-419	appreciate
-420	benefit
-421	lack
-422	list
-423	occupy
-424	permit
-425	surround
-426	abandon
-427	blame
-428	complain
-429	connect
-430	construct
-431	dominate
-432	engage
-433	paint
-434	quote
-435	view
-436	acknowledge
-437	dismiss
-438	incorporate
-439	interpret
-440	proceed
-441	search
-442	separate
-443	stress
-444	alter
-445	analyse
-446	arrest
-447	bother
-448	defend
-449	expand
-450	implement
-451	possess
-452	review
-453	suit
-454	tie
-455	assist
-456	calculate
-457	glance
-458	mix
-459	question
-460	resolve
-461	rule
-462	suspect
-463	Wake
-464	appeal
-465	challenge
-466	clean
-467	damage
-468	guess
-469	reckon
-470	restore
-471	restrict
-472	specify
-473	constitute
-474	convert
-475	distinguish
-476	submit
-477	trust
-478	urge
-479	feature
-480	Land
-481	locate
-482	predict
-483	preserve
-484	solve
-485	sort
-486	struggle
-487	cast
-488	Cook
-489	dance
-490	invest
-491	lock
-492	owe
-493	pour
-494	shift
-495	kick
-496	kiss
-497	Light
-498	purchase
-499	race
-500	retire
-501	Bend
-502	breathe
-503	celebrate
-504	date
-505	fire
-506	Monitor
-507	print
-508	register
-509	resist
-510	behave
-511	comprise
-512	decline
-513	detect
-514	finance
-515	organize
-516	overcome
-517	range
-518	swing
-519	differ
-520	drag
-521	guarantee
-522	oppose
-523	pack
-524	pause
-525	relax
-526	resign
-527	Rush
-528	store
-529	waste
-530	compete
-531	expose
-532	found
-533	install
-534	mount
-535	negotiate
-536	sink
-537	Split
-538	whisper
-539	assure
-540	award
-541	borrow
-542	bury
-543	capture
-544	deserve
-545	distribute
-546	doubt
-547	enhance
-548	phone
-549	sweep
-550	tackle
-551	advance
-552	cease
-553	concern
-554	emphasise
-555	exceed
-556	qualify
-557	slide
-558	strengthen
-559	transform
-560	favour
-561	grab
-562	lend
-563	participate
-564	perceive
-565	pose
-566	practise
-567	satisfy
-568	scream
-569	smoke
-570	sustain
-571	tear
-572	adapt
-573	adjust
-574	BAN
-575	consult
-576	dig
-577	dry
-578	highlight
-579	outline
-580	reinforce
-581	shrug
-582	snap
-583	absorb
-584	amount
-585	block
-586	confine
-587	delay
-588	encounter
-589	entitle
-590	plant
-591	pretend
-592	request
-593	rid
-594	sail
-595	trace
-596	trade
-597	Wave
-598	cite
-599	dream
-600	flow
-601	fulfil
-602	lower
-603	process
-604	react
-605	seize
-606	allocate
-607	burst
-608	communicate
-609	defeat
-610	double
-611	exploit
-612	fund
-613	govern
-614	hurry
-615	injure
-616	pray
-617	protest
-618	sigh
-619	smell
-620	stir
-621	swim
-622	undergo
-623	wander
-624	anticipate
-625	collapse
-626	compose
-627	confront
-628	ease
-629	eliminate
-630	evaluate
-631	grin
-632	interview
-633	remark
-634	suspend
-635	weigh
-636	wipe
-637	wrap
-638	attribute
-639	Balance
-640	bet
-641	bound
-642	cancel
-643	condemn
-644	convince
-645	correspond
-646	dare
-647	devise
-648	free
-649	gaze
-650	guide
-651	inspire
-652	modify
-653	murder
-654	prompt
-655	reverse
-656	rub
-657	slow
-658	spot
-659	swear
-660	telephone
-661	wind
-662	admire
-663	bite
-664	crash
-665	disturb
-666	greet
-667	hesitate
-668	induce
-669	integrate
-670	knit
-671	line
-672	load
-673	murmur
-674	render
-675	shine
-676	swallow
-677	tap
-678	translate
-679	yield
-680	accommodate
-681	age
-682	assert
-683	await
-684	Book
-685	brush
-686	Chase
-687	comply
-688	copy
-689	criticise
-690	devote
-691	evolve
-692	flee
-693	forgive
-694	initiate
-695	interrupt
-696	leap
-697	mutter
-698	overlook
-699	risk
-700	SHAPE
-701	spell
-702	squeeze
-703	trap
-704	undermine
-705	witness
-706	beg
-707	drift
-708	Echo
-709	emphasize
-710	enforce
-711	exchange
-712	fade
-713	float
-714	freeze
-715	hire
-716	IN
-717	object
-718	pop
-719	provoke
-720	recruit
-721	research
-722	sense
-723	situate
-724	stimulate
-725	abolish
-726	administer
-727	allege
-728	command
-729	consume
-730	convey
-731	correct
-732	educate
-733	equip
-734	execute
-735	fetch
-736	frown
-737	invent
-738	MArch
-739	Park
-740	progress
-741	reserve
-742	respect
-743	twist
-744	unite
-745	value
-746	assign
-747	cater
-748	concede
-749	conceive
-750	disclose
-751	envisage
-752	exhibit
-753	export
-754	extract
-755	fancy
-756	inherit
-757	insert
-758	instruct
-759	interfere
-760	isolate
-761	opt
-762	peer
-763	persist
-764	plead
-765	Price
-766	regret
-767	regulate
-768	repair
-769	resemble
-770	resume
-771	speed
-772	spin
-773	spring
-774	update
-775	advocate
-776	assemble
-777	boost
-778	breed
-779	cling
-780	commission
-781	conceal
-782	contemplate
-783	criticize
-784	decorate
-785	descend
-786	drain
-787	edit
-788	embrace
-789	excuse
-790	explode
-791	facilitate
-792	flash
-793	fold
-794	function
-795	grasp
-796	incur
-797	intervene
-798	label
-799	please
-800	rescue
-801	strip
-802	tip
-803	upset
-804	advertise
-805	aid
-806	Centre
-807	classify
-808	coincide
-809	confess
-810	contract
-811	crack
-812	creep
-813	decrease
-814	deem
-815	dispose
-816	dissolve
-817	dump
-818	endorse
-819	formulate
-820	import
-821	impress
-822	market
-823	reproduce
-824	scatter
-825	schedule
-826	ship
-827	shop
-828	spare
-829	sponsor
-830	stage
-831	suck
-832	Sue
-833	tempt
-834	vanish
-835	access
-836	commence
-837	contrast
-838	depict
-839	discharge
-840	draft
-841	enclose
-842	enquire
-843	erect
-844	file
-845	halt
-846	Hunt
-847	inspect
-848	omit
-849	originate
-850	praise
-851	precede
-852	relieve
-853	reward
-854	round
-855	SEAL
-856	signal
-857	smash
-858	spoil
-859	subject
-860	target
-861	taste
-862	tighten
-863	top
-864	tremble
-865	tuck
-866	warm
-867	activate
-868	amend
-869	arouse
-870	bang
-871	bid
-872	bow
-873	campaign
-874	characterise
-875	circulate
-876	clarify
-877	compensate
-878	compile
-879	cool
-880	couple
-881	depart
-882	deprive
-883	desire
-884	diminish
-885	drown
-886	embark
-887	entail
-888	entertain
-889	figure
-890	fling
-891	guard
-892	manufacture
-893	melt
-894	neglect
-895	plunge
-896	project
-897	rain
-898	reassure
-899	rent
-900	revive
-901	sentence
-902	shed
-903	slam
-904	spill
-905	stem
-906	sum
-907	summon
-908	supplement
-909	suppress
-910	surprise
-911	tax
-912	thrust
-913	tour
-914	transmit
-915	transport
-916	weaken
-917	widen
-918	bounce
-919	calm
-920	characterize
-921	chat
-922	clutch
-923	confer
-924	conform
-925	confuse
-926	convict
-927	counter
-928	debate
-929	dedicate
-930	dictate
-931	disagree
-932	effect
-933	flood
-934	forbid
-935	grip
-936	heat
-937	long
-938	manipulate
-939	merge
-940	part
-941	PIN
-942	position
-943	prescribe
-944	proclaim
-945	punish
-946	rebuild
-947	regain
-948	sack
-949	strain
-950	stroke
-951	substitute
-952	supervise
-953	term
-954	time
-955	toss
-956	underline
-957	abuse
-958	accumulate
-959	alert
-960	arm
-961	attain
-962	boast
-963	boil
-964	carve
-965	cheer
-966	colour
-967	compel
-968	crawl
-969	crush
-970	Curl
-971	deposit
-972	differentiate
-973	dip
-974	dislike
-975	divert
-976	embody
-977	exert
-978	exhaust
-979	fine
-980	frighten
-981	fuck
-982	gasp
-983	honour
-984	inhibit
-985	motivate
-986	multiply
-987	narrow
-988	obey
-989	penetrate
-990	picture
-991	presume
-992	prevail
-993	pronounce
-994	rate
-995	renew
-996	revise
-997	rip
-998	scan
-999	scratch
-1000	shiver
+Be
+have
+DO
+say
+get
+make
+go
+see
+know
+take
+think
+come
+give
+look
+use
+find
+want
+Tell
+put
+mean
+become
+leave
+work
+need
+feel
+seem
+ask
+show
+try
+Call
+keep
+provide
+hold
+turn
+follow
+Begin
+bring
+like
+going
+help
+start
+run
+write
+Set
+move
+play
+pay
+hear
+include
+believe
+allow
+meet
+lead
+live
+stand
+happen
+carry
+talk
+appear
+produce
+sit
+offer
+consider
+expect
+suggest
+LET
+read
+require
+continue
+lose
+ADD
+change
+Fall
+remain
+remember
+buy
+speak
+stop
+send
+receive
+decide
+win
+understand
+describe
+develop
+agree
+open
+reach
+build
+involve
+spend
+return
+draw
+die
+Hope
+create
+walk
+sell
+wait
+cause
+pass
+Lie
+accept
+watch
+raise
+Base
+apply
+break
+explain
+learn
+increase
+cover
+grow
+claim
+report
+support
+cut
+form
+stay
+contain
+reduce
+establish
+join
+wish
+achieve
+seek
+choose
+deal
+face
+fail
+serve
+end
+kill
+occur
+drive
+represent
+rise
+discuss
+love
+pick
+place
+argue
+prove
+wear
+catch
+enjoy
+eat
+introduce
+enter
+present
+arrive
+ensure
+point
+plan
+pull
+refer
+act
+relate
+affect
+close
+identify
+manage
+thank
+compare
+announce
+obtain
+note
+forget
+indicate
+wonder
+maintain
+publish
+suffer
+avoid
+express
+suppose
+finish
+determine
+design
+listen
+save
+tend
+treat
+control
+share
+remove
+throw
+visit
+exist
+encourage
+force
+reflect
+admit
+assume
+smile
+prepare
+replace
+fill
+improve
+mention
+fight
+intend
+Miss
+discover
+drop
+hit
+push
+prevent
+refuse
+regard
+lay
+reveal
+Teach
+answer
+operate
+State
+depend
+enable
+record
+check
+complete
+cost
+sound
+laugh
+realise
+extend
+arise
+notice
+define
+examine
+fit
+study
+bear
+hang
+recognise
+shake
+sign
+attend
+fly
+gain
+perform
+result
+travel
+adopt
+confirm
+protect
+demand
+stare
+imagine
+attempt
+beat
+Born
+associate
+care
+marry
+collect
+voice
+employ
+issue
+release
+emerge
+mind
+aim
+deny
+Mark
+shoot
+appoint
+Order
+supply
+drink
+observe
+reply
+ignore
+link
+propose
+ring
+settle
+strike
+press
+respond
+arrange
+survive
+concentrate
+lift
+approach
+Cross
+test
+charge
+experience
+touch
+acquire
+commit
+demonstrate
+Grant
+prefer
+repeat
+sleep
+threaten
+feed
+insist
+launch
+limit
+promote
+deliver
+measure
+own
+retain
+assess
+attract
+belong
+consist
+contribute
+hide
+promise
+reject
+cry
+impose
+invite
+sing
+vary
+warn
+address
+declare
+destroy
+worry
+divide
+head
+name
+stick
+nod
+recognize
+train
+attack
+clear
+combine
+handle
+influence
+realize
+recommend
+shout
+spread
+undertake
+account
+select
+climb
+contact
+recall
+secure
+step
+transfer
+welcome
+conclude
+disappear
+display
+dress
+illustrate
+imply
+organise
+direct
+escape
+generate
+investigate
+remind
+advise
+afford
+earn
+hand
+inform
+rely
+succeed
+approve
+burn
+fear
+vote
+conduct
+cope
+derive
+elect
+gather
+jump
+last
+match
+matter
+persuade
+ride
+shut
+blow
+estimate
+recover
+score
+slip
+count
+hate
+attach
+exercise
+house
+lean
+roll
+wash
+accompany
+accuse
+bind
+explore
+judge
+rest
+steal
+comment
+exclude
+focus
+hurt
+stretch
+withdraw
+back
+fix
+justify
+knock
+pursue
+switch
+appreciate
+benefit
+lack
+list
+occupy
+permit
+surround
+abandon
+blame
+complain
+connect
+construct
+dominate
+engage
+paint
+quote
+view
+acknowledge
+dismiss
+incorporate
+interpret
+proceed
+search
+separate
+stress
+alter
+analyse
+arrest
+bother
+defend
+expand
+implement
+possess
+review
+suit
+tie
+assist
+calculate
+glance
+mix
+question
+resolve
+rule
+suspect
+Wake
+appeal
+challenge
+clean
+damage
+guess
+reckon
+restore
+restrict
+specify
+constitute
+convert
+distinguish
+submit
+trust
+urge
+feature
+Land
+locate
+predict
+preserve
+solve
+sort
+struggle
+cast
+Cook
+dance
+invest
+lock
+owe
+pour
+shift
+kick
+kiss
+Light
+purchase
+race
+retire
+Bend
+breathe
+celebrate
+date
+fire
+Monitor
+print
+register
+resist
+behave
+comprise
+decline
+detect
+finance
+organize
+overcome
+range
+swing
+differ
+drag
+guarantee
+oppose
+pack
+pause
+relax
+resign
+Rush
+store
+waste
+compete
+expose
+found
+install
+mount
+negotiate
+sink
+Split
+whisper
+assure
+award
+borrow
+bury
+capture
+deserve
+distribute
+doubt
+enhance
+phone
+sweep
+tackle
+advance
+cease
+concern
+emphasise
+exceed
+qualify
+slide
+strengthen
+transform
+favour
+grab
+lend
+participate
+perceive
+pose
+practise
+satisfy
+scream
+smoke
+sustain
+tear
+adapt
+adjust
+BAN
+consult
+dig
+dry
+highlight
+outline
+reinforce
+shrug
+snap
+absorb
+amount
+block
+confine
+delay
+encounter
+entitle
+plant
+pretend
+request
+rid
+sail
+trace
+trade
+Wave
+cite
+dream
+flow
+fulfil
+lower
+process
+react
+seize
+allocate
+burst
+communicate
+defeat
+double
+exploit
+fund
+govern
+hurry
+injure
+pray
+protest
+sigh
+smell
+stir
+swim
+undergo
+wander
+anticipate
+collapse
+compose
+confront
+ease
+eliminate
+evaluate
+grin
+interview
+remark
+suspend
+weigh
+wipe
+wrap
+attribute
+Balance
+bet
+bound
+cancel
+condemn
+convince
+correspond
+dare
+devise
+free
+gaze
+guide
+inspire
+modify
+murder
+prompt
+reverse
+rub
+slow
+spot
+swear
+telephone
+wind
+admire
+bite
+crash
+disturb
+greet
+hesitate
+induce
+integrate
+knit
+line
+load
+murmur
+render
+shine
+swallow
+tap
+translate
+yield
+accommodate
+age
+assert
+await
+Book
+brush
+Chase
+comply
+copy
+criticise
+devote
+evolve
+flee
+forgive
+initiate
+interrupt
+leap
+mutter
+overlook
+risk
+SHAPE
+spell
+squeeze
+trap
+undermine
+witness
+beg
+drift
+Echo
+emphasize
+enforce
+exchange
+fade
+float
+freeze
+hire
+IN
+object
+pop
+provoke
+recruit
+research
+sense
+situate
+stimulate
+abolish
+administer
+allege
+command
+consume
+convey
+correct
+educate
+equip
+execute
+fetch
+frown
+invent
+MArch
+Park
+progress
+reserve
+respect
+twist
+unite
+value
+assign
+cater
+concede
+conceive
+disclose
+envisage
+exhibit
+export
+extract
+fancy
+inherit
+insert
+instruct
+interfere
+isolate
+opt
+peer
+persist
+plead
+Price
+regret
+regulate
+repair
+resemble
+resume
+speed
+spin
+spring
+update
+advocate
+assemble
+boost
+breed
+cling
+commission
+conceal
+contemplate
+criticize
+decorate
+descend
+drain
+edit
+embrace
+excuse
+explode
+facilitate
+flash
+fold
+function
+grasp
+incur
+intervene
+label
+please
+rescue
+strip
+tip
+upset
+advertise
+aid
+Centre
+classify
+coincide
+confess
+contract
+crack
+creep
+decrease
+deem
+dispose
+dissolve
+dump
+endorse
+formulate
+import
+impress
+market
+reproduce
+scatter
+schedule
+ship
+shop
+spare
+sponsor
+stage
+suck
+Sue
+tempt
+vanish
+access
+commence
+contrast
+depict
+discharge
+draft
+enclose
+enquire
+erect
+file
+halt
+Hunt
+inspect
+omit
+originate
+praise
+precede
+relieve
+reward
+round
+SEAL
+signal
+smash
+spoil
+subject
+target
+taste
+tighten
+top
+tremble
+tuck
+warm
+activate
+amend
+arouse
+bang
+bid
+bow
+campaign
+characterise
+circulate
+clarify
+compensate
+compile
+cool
+couple
+depart
+deprive
+desire
+diminish
+drown
+embark
+entail
+entertain
+figure
+fling
+guard
+manufacture
+melt
+neglect
+plunge
+project
+rain
+reassure
+rent
+revive
+sentence
+shed
+slam
+spill
+stem
+sum
+summon
+supplement
+suppress
+surprise
+tax
+thrust
+tour
+transmit
+transport
+weaken
+widen
+bounce
+calm
+characterize
+chat
+clutch
+confer
+conform
+confuse
+convict
+counter
+debate
+dedicate
+dictate
+disagree
+effect
+flood
+forbid
+grip
+heat
+long
+manipulate
+merge
+part
+PIN
+position
+prescribe
+proclaim
+punish
+rebuild
+regain
+sack
+strain
+stroke
+substitute
+supervise
+term
+time
+toss
+underline
+abuse
+accumulate
+alert
+arm
+attain
+boast
+boil
+carve
+cheer
+colour
+compel
+crawl
+crush
+Curl
+deposit
+differentiate
+dip
+dislike
+divert
+embody
+exert
+exhaust
+fine
+frighten
+fuck
+gasp
+honour
+inhibit
+motivate
+multiply
+narrow
+obey
+penetrate
+picture
+presume
+prevail
+pronounce
+rate
+renew
+revise
+rip
+scan
+scratch
+shiver

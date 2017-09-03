@@ -1,4 +1,4 @@
-package JoshFirstFunctions;
+package chatbotFunctions;
 use strict;
 use warnings;
 use Exporter;
@@ -6,10 +6,10 @@ use Exporter;
 our @ISA= qw( Exporter );
 
 # these CAN be exported.
-our @EXPORT_OK = qw( isValidWord textFileToArray isProbableQuestion fixString );
+our @EXPORT_OK = qw( isValidWord textFileToArray isProbableQuestion fixString isProbableImperative isProbableExclamatory );
 
 # these are exported by default.
-our @EXPORT = qw( isValidWord textFileToArray isProbableQuestion fixString );
+our @EXPORT = qw( isValidWord textFileToArray isProbableQuestion fixString isProbableImperative isProbableExclamatory );
 
 sub isValidWord{
 
@@ -62,6 +62,46 @@ sub isProbableQuestion{
 	}
 	#check for other indicators
 	if (index(lc($str), lc("Is")) == 0 || index(lc($str), lc("Are")) == 0 || index(lc($str), lc("Aren't")) == 0 || index(lc($str), lc("Do")) == 0 || index(lc($str), lc("Will")) == 0 || index(lc($str), lc("Won't")) == 0 || index(lc($str), lc("Shall")) == 0 || index(lc($str), lc("Can")) == 0 || index(lc($str), lc("Must")) == 0) {
+		$out = 1;
+	}
+
+	return $out;
+
+}
+
+sub isProbableImperative{
+
+	my $str = $_[0];
+	my $out = 0;
+
+	#check for imperative words
+	if (index(lc($str), lc("Must")) != -1 || index(lc($str), lc("Do")) == 0 || index(lc($str), lc("Go")) == 0 || index(lc($str), lc("Help")) == 0 || index(lc($str), lc("Learn")) == 0 || index(lc($str), lc("Listen")) == 0) {
+		$out = 1;
+	}
+	#check for other indicators
+	if (index(lc($str), lc("Obey")) == 0 || index(lc($str), lc("Pay Attention")) == 0 || index(lc($str), lc("have to")) != -1 || index(lc($str), lc("need to")) != -1 || index(lc($str), lc("shall")) != -1 || index(lc($str), lc("do not")) != -1) {
+		$out = 1;
+	}
+
+	return $out;
+
+}
+
+sub isProbableExclamatory{
+
+	my $str = $_[0];
+	my $out = 0;
+
+	#check for exclamation points
+	if (index($str, "!") != -1) {
+		$out = 1;
+	}
+	#check for one-word inputs
+	if (index($str, " ") == -1) {
+		$out = 1;
+	}
+	#check for imperative words
+	if (index(lc($str), lc("Wow")) != -1 || index(lc($str), lc("Hello")) != -1 || index(lc($str), lc("Goodbye")) != -1 || index(lc($str), lc("Hi")) != -1 || index(lc($str), lc("Bye")) != -1 || index(lc($str), lc("ok")) != -1 || index(lc($str), lc("okay")) != -1 || index(lc($str), lc("k")) != -1 || index(lc($str), lc("yes")) != -1 || index(lc($str), lc("no")) != -1 || index(lc($str), lc("cool")) != -1) {
 		$out = 1;
 	}
 

@@ -6,10 +6,10 @@ use Exporter;
 our @ISA= qw( Exporter );
 
 # these CAN be exported.
-our @EXPORT_OK = qw( isValidWord textFileToArray isProbableQuestion fixString isProbableImperative isProbableExclamatory );
+our @EXPORT_OK = qw( isValidWord textFileToArray isProbableQuestion fixString isProbableImperative isProbableExclamatory makeSentenceStructure responseKeyType arrayFromStructure );
 
 # these are exported by default.
-our @EXPORT = qw( isValidWord textFileToArray isProbableQuestion fixString isProbableImperative isProbableExclamatory );
+our @EXPORT = qw( isValidWord textFileToArray isProbableQuestion fixString isProbableImperative isProbableExclamatory makeSentenceStructure responseKeyType arrayFromStructure );
 
 sub isValidWord{
 
@@ -151,6 +151,99 @@ sub fixString{
 	}
 
 	return $str;
+
+}
+
+sub makeSentenceStructure {
+
+	my $outStr = "";
+
+	#give a random length from 1-12
+	my $length = int(rand(12)) + 1;
+
+	#add parts of speech
+	for(my $i = 0; $i <= $length; $i ++){
+
+		my $part;
+		my $rand = int(rand(8));
+		if($rand == 0){
+			$part = "noun";
+		}
+		if($rand == 1){
+			$part = "adjective";
+		}
+		if($rand == 2){
+			$part = "verb";
+		}
+		if($rand == 3){
+			$part = "adverb";
+		}
+		if($rand == 4){
+			$part = "interjection";
+		}
+		if($rand == 5){
+			$part = "preposition";
+		}
+		if($rand == 6){
+			$part = "article";
+		}
+		if($rand == 7){
+			$part = "conjunction";
+		}
+		$outStr .= " " . $part;
+
+	}
+
+	return $outStr;
+
+}
+
+#this function gets the response rating keyword to look for in the Structures DB based on sentence type
+sub responseKeyType {
+
+	my $sentenceType = $_[0];
+	my $outStr;
+
+	if($sentenceType == 1){
+		$outStr = "ResponseRatingD";
+	}
+	if($sentenceType == 2){
+		$outStr = "ResponseRatingN";
+	}
+	if($sentenceType == 3){
+		$outStr = "ResponseRatingM";
+	}
+	if($sentenceType == 4){
+		$outStr = "ResponseRatingE";
+	}
+
+	return $outStr;
+
+}
+
+sub arrayFromStructure {
+
+	#vars
+	my $str = $_[0];
+	my $randomStruct = $_[1];
+	my @out;
+
+	#break down input into just sentence parts if not random
+	if($randomStruct == 0){
+		$str = substr $str, 0, index($str, "ResponseRatingD");
+	}
+
+	#put in array
+	@out = split / /, $str;
+
+	#make parts plural
+	for(my $i = 0; $i < @out; $i ++){
+
+		$out[$i] .= "s";
+
+	}
+
+	return @out;
 
 }
 

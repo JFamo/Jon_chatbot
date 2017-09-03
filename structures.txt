@@ -1,0 +1,1 @@
+noun verb article noun ResponseRatingD 4 ResponseRatingN 4 ResponseRatingM 4 ResponseRatingE 4 

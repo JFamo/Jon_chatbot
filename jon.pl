@@ -195,7 +195,7 @@ while($doChatLoop == 1){
 
 					if(index($responses[$i], $q) != -1 && index($responses[$i], $q) > index($responses[$i], "ResponseRating")){
 
-						if($q >= 3){
+						if($q >= 4){
 
 							my $outStr;
 							$outStr = substr $responses[$i], 0, index($responses[$i], "ResponseRating") - 1;
@@ -227,15 +227,97 @@ while($doChatLoop == 1){
 		untie @responses;
 
 	}
-#GET RANDOM WORDS FROM DATABASE LEVEL 2
-	if($hasResponseSaved == 0){
 
-		if($wordInDB == 0){
+#CHOOSE A SENTENCE STRUCTURE
 
+	#vars
+	my $randChance = int(rand(10));
+	my @sentences;
+	my @sentencesPossible;
+	my $sentenceStructure;
+	my $responseKey = responseKeyType($sentenceType);
+
+	tie @sentences, 'Tie::File', "structures.txt" or die;
+
+	#if no sentence structures, I'm forced to make a new one
+	if(@sentences == 0){
+		$randChance = 9;
+	}
+
+	#loop through all recorded responses
+	for(my $i = 0; $i < @sentences; $i ++){
+
+		#loop through all possible ratings to see which it has
+		for(my $q = 1; $q <= 5; $q ++){
+
+			#if it has that rating for the current sentence structure
+			if(index($sentences[$i], $q) != -1 && index($sentences[$i], $q) == index($sentences[$i], $responseKey) + 16){
+
+				#if it is a coherent sentence structure
+				if($q >= 3){
+
+					#make it a possible response
+					push @sentencesPossible, $sentences[$i];
+					last;
+
+				}
+
+			}
 
 		}
 
 	}
 
+	#if I'm not going to make a new one, choose one
+	my @structure;
+
+	if($randChance <= 7){
+		$sentenceStructure = $sentencesPossible[rand @sentencesPossible];
+		#get word array from sentence structure
+		@structure = arrayFromStructure($sentenceStructure, 0);
+	}
+	else{
+		$sentenceStructure = makeSentenceStructure();
+		#get word array from sentence structure
+		@structure = arrayFromStructure($sentenceStructure, 1);
+	}
+
+	
+
+
+#GET RANDOM WORDS FROM DATABASE LEVEL 2
+	if($hasResponseSaved == 0){
+
+		#have I already included the interest word?
+		my $usedInterestWord = 0;
+
+		#for each word in the sentence structure
+		for(my $i = 0; $i < @structure; $i ++){
+
+			if($usedInterestWord == 0 && $interestWordPartOfSpeech."s" eq $structure[$i] && $wordInDB == 1){
+
+				print $interestWord . " ";
+				$usedInterestWord = 1;
+
+			}
+			else{
+
+				tie @currentDB, 'Tie::File', $structure[$i].".txt" or die;
+
+				my $randIndex = int(rand(@currentDB));
+
+				my $printword = $currentDB[$randIndex] . " ";
+				$printword = join( "", split(" 0", $printword) );
+				$printword = join( "", split(" 1", $printword) );
+
+				print $printword;
+
+				untie @currentDB;
+
+			}
+
+		}
+
+	}
 
 }

@@ -13,15 +13,10 @@ while($doChatLoop == 1){
 	#prompt
 	print "\n?:";
 
-	#input
+#USER INPUT
 	my $my_chat_words = <STDIN>;
 	chomp $my_chat_words;
 	$my_chat_words = fixString($my_chat_words);
-
-	#add input to the used.txt file
-	open(my $fhused, ">>", "used.txt") or die "Can't open >> used.txt: $!";
-	print $fhused $my_chat_words . "\n";
-	close $fhused;
 
 	if($my_chat_words eq "quit"){
 
@@ -32,7 +27,7 @@ while($doChatLoop == 1){
 	#get my words
 	my @user_words = split /[:,\s?!.]+/, $my_chat_words;
 
-	#Predict the sentence type
+#PREDICT SENTENCE TYPE
 	#1 - Declarative
 	#2 - Interrogatory
 	#3 - Imperative
@@ -58,7 +53,7 @@ while($doChatLoop == 1){
 
 	print $sentenceType . "\n";
 
-	#read database 1, get interesting word position
+#GET INTERESTING WORD POSITION
 	my @interestWordsArray;
 	my $interestWordPos;
 	tie @interestWordsArray, 'Tie::File', "db1.txt" or die;
@@ -68,8 +63,124 @@ while($doChatLoop == 1){
 	#balance interesting word position off of user input size
 	my $balancedPosition = $interestWordPos * @user_words;
 	$balancedPosition = int($balancedPosition);
-
 	my $interestWord = $user_words[$balancedPosition - 1];
+
+#FIND WORD PART OF SPEECH IN DATABASE LEVEL 2
+	my $dbWordFound = 0;
+	my $interestWordPartOfSpeech = "";
+	my $hasResponseSaved = 0;
+	my @currentDB;
+	while($dbWordFound == 0){
+
+		tie @currentDB, 'Tie::File', "conjunctions.txt" or die;
+		for(my $i = 0; $i < @currentDB; $i ++){
+			if(index($currentDB[$i], $interestWord) != -1){
+				if(index($currentDB[$i], "1") != -1){
+					$hasResponseSaved = 1;
+				}
+				$interestWordPartOfSpeech = "conjunction";
+				$dbWordFound = 1;
+			}
+		}
+		untie @currentDB;
+
+		tie @currentDB, 'Tie::File', "articles.txt" or die;
+		for(my $i = 0; $i < @currentDB; $i ++){
+			if(index($currentDB[$i], $interestWord) != -1){
+				if(index($currentDB[$i], "1") != -1){
+					$hasResponseSaved = 1;
+				}	
+				$interestWordPartOfSpeech = "article";
+				$dbWordFound = 1;
+			}
+		}
+		untie @currentDB;
+
+		tie @currentDB, 'Tie::File', "prepositions.txt" or die;
+		for(my $i = 0; $i < @currentDB; $i ++){
+			if(index($currentDB[$i], $interestWord) != -1){
+				if(index($currentDB[$i], "1") != -1){
+					$hasResponseSaved = 1;
+				}	
+				$interestWordPartOfSpeech = "preposition";
+				$dbWordFound = 1;
+			}
+		}
+		untie @currentDB;
+
+		tie @currentDB, 'Tie::File', "interjections.txt" or die;
+		for(my $i = 0; $i < @currentDB; $i ++){
+			if(index($currentDB[$i], $interestWord) != -1){
+				if(index($currentDB[$i], "1") != -1){
+					$hasResponseSaved = 1;
+				}	
+				$interestWordPartOfSpeech = "interjection";
+				$dbWordFound = 1;
+			}
+		}
+		untie @currentDB;
+
+		tie @currentDB, 'Tie::File', "adverbs.txt" or die;
+		for(my $i = 0; $i < @currentDB; $i ++){
+			if(index($currentDB[$i], $interestWord) != -1){
+				if(index($currentDB[$i], "1") != -1){
+					$hasResponseSaved = 1;
+				}	
+				$interestWordPartOfSpeech = "adverb";
+				$dbWordFound = 1;
+			}
+		}
+		untie @currentDB;
+
+		tie @currentDB, 'Tie::File', "verbs.txt" or die;
+		for(my $i = 0; $i < @currentDB; $i ++){
+			if(index($currentDB[$i], $interestWord) != -1){
+				if(index($currentDB[$i], "1") != -1){
+					$hasResponseSaved = 1;
+				}	
+				$interestWordPartOfSpeech = "verb";
+				$dbWordFound = 1;
+			}
+		}
+		untie @currentDB;
+
+		tie @currentDB, 'Tie::File', "adjectives.txt" or die;
+		for(my $i = 0; $i < @currentDB; $i ++){
+			if(index($currentDB[$i], $interestWord) != -1){
+				if(index($currentDB[$i], "1") != -1){
+					$hasResponseSaved = 1;
+				}	
+				$interestWordPartOfSpeech = "adjective";
+				$dbWordFound = 1;
+			}
+		}
+		untie @currentDB;
+
+		tie @currentDB, 'Tie::File', "nouns.txt" or die;
+		for(my $i = 0; $i < @currentDB; $i ++){
+			if(index($currentDB[$i], $interestWord) != -1){
+				if(index($currentDB[$i], "1") != -1){
+					$hasResponseSaved = 1;
+				}	
+				$interestWordPartOfSpeech = "noun";
+				$dbWordFound = 1;
+			}
+		}
+		untie @currentDB;
+
+	}
+
+#GET BEST MATCH FROM RESPONSE DATABASE
+	if($hasResponseSaved == 1){
+		
+		
+
+	}
+	else{
+
+		
+
+	}
 
 	print $interestWord;
 

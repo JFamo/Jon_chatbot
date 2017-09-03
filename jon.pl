@@ -6,11 +6,11 @@ use Tie::File;
 
 my @array;
 
-tie @array, 'Tie::File', "adjs.txt" or die;
+tie @array, 'Tie::File', "verbs.txt" or die;
 
 for(my $i = 0; $i < @array; $i ++){
 
-	$array[$i] = lc($array[$i]);
+	$array[$i] .= " 0";
 
 }
 

@@ -1,0 +1,106 @@
+ah 0
+a-ha 0
+ahem 0
+alas 0
+amen 0
+aw 0
+awesome 0
+bada bing 0
+bah 0
+baloney 0
+big deal 0
+bingo 0
+boo 0
+boo hoo 0
+booya 0
+boy 0
+bravo 0
+brillliant 0
+brrr 0
+bull 0
+bye 0
+cheers 0
+come on 0
+cool 0
+cowabunga 0
+dang 0
+darn 0
+dear me 0
+duck 0
+duh 0
+eh 0
+enjoy 0
+excellent 0
+fabulous 0
+fantastic 0
+fiddle dee dee 0
+finally 0
+for heaven's sake 0
+fore 0
+foul 0
+freeze 0
+gee 0
+giddyap 0
+golly 0
+goodbye 0
+goodnight 0
+good evening 0
+good grief 0
+good heavens 0
+good morning 0
+gosh 0
+great 0
+great balls of fire  0
+ha 0
+hallelujah 0
+heavens 0
+heigh ho 0
+hello 0
+help 0
+hey 0
+hi 0
+hip, hip, hooray 0
+hmm 0
+ho ho ho 0
+holy mackerel 0
+ho hum 0
+hooray 0
+howdy 0
+huh 0
+ick 0
+indeed 0
+jeez 0
+kaboom 0
+kapow 0
+lordy 0
+mama mia 0
+man 0
+marvelous 0
+my 0
+my goodness 0
+nah 0
+no problem 0
+no way 0
+nope 0
+nuts 0
+oh 0
+ok 0
+ouch 0
+ow 0
+please 0
+poof 0
+see you later 0
+see you soon 0
+sh 0
+super 0
+swell 0
+welcome 0
+well 0
+whoop-de-doo 0
+woo-hoo 0
+wow 0
+what's up 0
+yabba dabba do 0
+yadda yadda 0
+yippee 0
+yummy 0

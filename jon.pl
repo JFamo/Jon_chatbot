@@ -10,7 +10,7 @@ tie @array, 'Tie::File', "adjs.txt" or die;
 
 for(my $i = 0; $i < @array; $i ++){
 
-	$array[$i] =~ s/(.*?)\t//gi;
+	$array[$i] = lc($array[$i]);
 
 }
 

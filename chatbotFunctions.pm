@@ -6,10 +6,10 @@ use Exporter;
 our @ISA= qw( Exporter );
 
 # these CAN be exported.
-our @EXPORT_OK = qw( isValidWord textFileToArray isProbableQuestion fixString isProbableImperative isProbableExclamatory makeSentenceStructure responseKeyType arrayFromStructure highestDB1Position getDB1Index getRandom );
+our @EXPORT_OK = qw( isValidWord textFileToArray isProbableQuestion fixString isProbableImperative isProbableExclamatory makeSentenceStructure responseKeyType arrayFromStructure highestDB1Position getDB1Index getRandom isDupeResponse );
 
 # these are exported by default.
-our @EXPORT = qw( isValidWord textFileToArray isProbableQuestion fixString isProbableImperative isProbableExclamatory makeSentenceStructure responseKeyType arrayFromStructure highestDB1Position getDB1Index getRandom );
+our @EXPORT = qw( isValidWord textFileToArray isProbableQuestion fixString isProbableImperative isProbableExclamatory makeSentenceStructure responseKeyType arrayFromStructure highestDB1Position getDB1Index getRandom isDupeResponse );
 
 sub isValidWord{
 
@@ -324,6 +324,45 @@ sub getRandom{
 	$rand = int(rand($rand));
 
 	return $rand;
+
+}
+
+sub isDupeResponse {
+
+	my $str = $_[0];
+	my @responses;
+	my @out;
+	$out[0] = 0;
+	$out[1] = 0;
+
+	tie @responses, 'Tie::File', "responses.txt" or die;
+
+	#for each saved response
+	for(my $i = 0; $i < @responses; $i++){
+
+		#predict if it is correct
+		if(index($responses[$i], $str) != 0){
+
+			my $splitString = " r ";
+
+			#put the ratings on this structure into an array
+			my @tempResponse = split / $splitString /, $responses[$i];
+
+			if($tempResponse[0] eq $str){
+
+				$out[0] = 1;
+				$out[1] = $i;
+				last;
+
+			}
+
+		}
+
+	}
+
+	untie @responses;
+
+	return $out;
 
 }
 

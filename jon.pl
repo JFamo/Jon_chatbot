@@ -222,23 +222,19 @@ while($doChatLoop == 1){
 			#if this is the right one
 			if(index($responses[$i], $interestWord) != -1){
 
-				#loop through all possible ratings to see which it has
-				for(my $q = 1; $q <= 5; $q ++){
+				my $responseSplitString = " r ";
 
-					if(index($responses[$i], $q) != -1 && index($responses[$i], $q) > index($responses[$i], " r ")){
+				#put the ratings on this structure into an array
+				my @tempResponse = split / $responseSplitString /, $responses[$i];
+				my $q = $tempResponse[1];
 
-						if($q >= 4){
+				#if it has a good rating, use it
+				if($q >= 4){
 
-							my $outStr;
-							$outStr = substr $responses[$i], 0, index($responses[$i], " r ");
-							print $outStr . "\n";
-							$speaker->Speak( $outStr );
-							$responseRating = $q;
-							last;
-
-						}
-
-					}
+					print $tempResponse[0] . "\n";
+					$speaker->Speak( $tempResponse[0] );
+					$responseRating = $q;
+					last;
 
 				}
 
@@ -427,15 +423,41 @@ if($doChatLoop == 1){
 	#ignore non-1thru5 ratings
 	if ($rating =~ /^[1-5]$/) {
 
-		#add output to the responses file
-		open(my $fhused, ">>", "responses.txt") or die "Can't open >> responses.txt: $!";
-		print $fhused $output . " r " . $rating . "\n";
-		close $fhused;
+		#check for existing response
+		my @temp = isDupeResponse($output);
+		# if it already exists, update its rating
+		if($temp[0] == 1){
+
+			tie @openDB, 'Tie::File', "responses.txt" or die;
+
+			my $splitString = " r ";
+
+			#put the parts of this response into an array
+			my @tempResponse = split / $splitString /, $openDB[$temp[1]];
+
+			#update the amount of uses
+			$tempResponse[2] += 1;
+
+			#update the rating
+			$tempResponse[1] = ((($tempResponse[2] - 1) * $tempResponse[1]) + $rating ) / $tempResponse[2];
+
+			#add it to the database
+			$openDB[$temp[1]] = join $splitString, @tempResponse;
+
+			untie @openDB;
+
+		}
+		else{
+			#add output to the responses file if it does not exist
+			open(my $fhused, ">>", "responses.txt") or die "Can't open >> responses.txt: $!";
+			print $fhused $output . " r " . $rating . " r 1\n";
+			close $fhused;
+		}
 
 		#change word response value
 		if($hasResponseSaved == 0 && $wordInDB == 1){
 			tie @openDB, 'Tie::File', $interestWordPartOfSpeech."s.txt" or die;
-			$openDB[$interestWordIndex] =~ s/ 0/ 1/gi;
+			$openDB[$interestWordIndex] =~ s/ 0/ 1/i;
 			untie @openDB;
 		}
 

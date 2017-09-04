@@ -120,7 +120,7 @@ ankle 0
 anklet 0
 annual 0
 anorak 0
-answer 0
+answer 1
 ant 0
 anteater 0
 antechamber 0
@@ -1750,7 +1750,7 @@ girlfriend 0
 git 0
 give 1
 glad 0
-gladiolus 0
+gladiolus 1
 gland 0
 glass 0
 glasses 0
@@ -2177,7 +2177,7 @@ junk 0
 junker 0
 junket 0
 jury 0
-justice 0
+justice 1
 jute 0
 kale 0
 kamikaze 0
@@ -2630,7 +2630,7 @@ n 0
 nail 0
 name 0
 naming 0
-nanoparticle 0
+nanoparticle 1
 napkin 0
 nasty 0
 nation 0
@@ -3344,7 +3344,7 @@ resource 0
 respect 0
 respite 0
 respond 0
-response 0
+response 1
 responsibility 0
 rest 0
 restaurant 0
@@ -3613,7 +3613,7 @@ shortage 0
 shorts 0
 shortwave 0
 shot 0
-shoulder 0
+shoulder 1
 shovel 0
 show 0
 shower 0
@@ -3882,7 +3882,7 @@ stopsign 0
 stopwatch 1
 storage 0
 store 0
-storey 0
+storey 1
 storm 0
 story 0
 storyboard 0

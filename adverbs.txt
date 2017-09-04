@@ -1,7 +1,7 @@
 abnormally 0
 absentmindedly 0
 accidentally 0
-actually 0
+actually 1
 adventurously 0
 afterwards 0
 almost 1

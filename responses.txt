@@ -13,7 +13,7 @@ hooray majestically but unlike sense few lazily  r 1 r 1
 embarrassed unless nope good evening freeze darn against check anti  r 1 r 1
 deny sentence breed whenever especially sometimes mansard even though of regarding brochure gosh  r 1 r 1
 more good tender detailed poultry gather again rise project squiggly run  r 1 r 1
-few sense hate  r 3.4 r 5
+few sense hate  r 3.33333333333333 r 6
 yummy whenever as if nine eighty  r 1 r 1
 it likely pinworm attic anxious bound vainly beside yabba dabba do oblong brrr constitute  r 1 r 1
 again dreamily proud two awkwardly charge educate near many dearest dependable inhibit  r 1 r 1
@@ -35,7 +35,7 @@ whether boat-building control keenly kill pavilion term  r 1 r 1
 openly many optimistic impolite until without unless  r 1 r 1
 some but respect rightfully  r 2 r 1
 plus highly walk teeming go enormously withdraw  r 1 r 1
-another counter before  r 3 r 1
+another counter before  r 2.5 r 2
 minus wherever nope solidly greedily kaboom till  r 1 r 1
 as if ah steep sense wherever  r 1 r 1
 derrick vibration  r 2 r 1
@@ -61,7 +61,7 @@ because one-million silently nope bingo  r 1 r 1
 argue what fifty cappelletti evaluate  r 1 r 1
 see you soon cupboard descend allege over scared no  r 1 r 1
 ten-thousand you darn bagpipe  r 2.5 r 2
-unlike quicker across  r 3 r 1
+unlike quicker across  r 2.5 r 2
 three learning bada bing cloister  r 2 r 1
 outside usefully near  r 1 r 1
 ten come on since top thirty even if eventually  r 1 r 1
@@ -86,31 +86,31 @@ produce one-hundred-thousand even if softly that  r 2 r 1
 nor majestically although  r 2 r 1
 luggage ry dear me  r 1 r 1
 restrict solidly as long as brrr hourly what thrifty  r 1 r 1
-silent understand  r 3 r 1
+silent understand  r 3 r 3
 reveal strap  r 3 r 1
 one-thousand surprise deceivingly but  r 1 r 1
 apt unless it  r 1 r 1
 big deal bind  r 3 r 1
-got taste brightly gee  r 3 r 1
+got taste brightly gee  r 2 r 2
 below stormy duck good decline towards fruit  r 1 r 1
 many into what drain as  r 1 r 1
 capital potential  r 2 r 1
 one rescue blond nor  r 2 r 1
 oh beneath  r 2 r 1
 halt as long as mockingly feast smoothly nine obnoxiously  r 1 r 1
-doubtfully arrest  r 3 r 1
+doubtfully arrest  r 3 r 3
 speedily transfer  r 3 r 1
 fat or some  r 3 r 1
 wetly place  r 3 r 1
 along whispered  r 3 r 1
 sedately reach  r 3 r 1
 randomly position  r 3 r 1
-rightfully regard  r 3 r 1
-sharply assess  r 3 r 1
+rightfully regard  r 3.5 r 2
+sharply assess  r 3 r 2
 busily grab  r 3 r 1
 general four  r 2 r 1
 mostly incur  r 3 r 1
-trusting one-hundred-thousand  r 3 r 1
+trusting one-hundred-thousand  r 3 r 3
 sick a  r 1 r 1
 helplessly one mostly  r 2 r 1
 certainly formulate  r 3 r 1
@@ -123,20 +123,20 @@ thirty nor reveal whenever but as if  r 2 r 1
 only ride  r 3 r 1
 five besides  r 2 r 1
 via do criticize shoulder pvc bada bing  r 2 r 1
-knowingly hard-to-find  r 3.5 r 2
+knowingly hard-to-find  r 3.33333333333333 r 3
 instantly cowabunga mention for one-hundred-thousand  r 2 r 1
 a-ha eighty wary the happily a  r 1 r 1
 perfect grave boy pause along  r 2 r 1
 searchingly pretend  r 3 r 1
 keenly fold  r 3 r 1
-eventually please  r 3 r 1
+eventually please  r 3 r 2
 slowly discuss  r 2 r 1
 stop up precede eel unless until boo hoo  r 2 r 1
 kaboom lose per fifty  r 1 r 1
 purchase tense  r 2 r 1
 wrong yet expect an  r 3 r 1
 huh so thing  r 3 r 1
-swell until back r 3.5 r 2
+swell until back r 3 r 4
 stop wherever assure one-hundred  r 2 r 1
 nah whenever reactant  r 4 r 1
 dang is amount ordinary though one-thousand  r 2 r 1
@@ -152,10 +152,10 @@ gee bravo  r 5 r 1
 howdy gosh  r 3 r 1
 during lordy one-thousand illustrious yummy whether  r 1 r 1
 within nope  r 2.5 r 2
-welcome enthusiastically near ninety amid  r 3 r 1
-target behave one sticky chipmunk  r 3 r 1
+welcome enthusiastically near ninety amid  r 2 r 2
+target behave one sticky chipmunk  r 2 r 2
 lord bah  r 2 r 1
-lord come on  r 3 r 1
+lord come on  r 3.5 r 4
 lord see you soon  r 1 r 1
 lord when one challenge ninety by nor  r 1 r 1
 via bye  r 2 r 1
@@ -172,7 +172,7 @@ unnaturally sh jeez  r 1 r 1
 repulsive hide ride duck shrilly  r 1 r 1
 command bingo commission  r 2 r 1
 smart than so that go  r 1 r 1
-know into booklet better  r 3 r 1
+know into booklet better  r 2 r 2
 round mature nor  r 1 r 1
 seventy shady prudent instantly three  r 1 r 1
 as long as compile six counter  r 1 r 1
@@ -184,7 +184,7 @@ tricky sense  r 3 r 1
 inwardly thick  r 3 r 1
 several sleep though since while  r 1 r 1
 kindly buoyant  r 3 r 1
-still quick-witted  r 4 r 1
+still quick-witted  r 4 r 2
 roughly dismal  r 3 r 1
 believe you recklessly a  r 1 r 1
 justly puny  r 3 r 1
@@ -195,7 +195,7 @@ sure eh because behind speedily excitedly  r 1 r 1
 dishonest once nine sharply deliver  r 1 r 1
 truly unequaled  r 3 r 1
 shingle one-thousand  r 1 r 1
-intensely beautiful  r 3 r 1
+intensely beautiful  r 3 r 2
 irritably educated  r 3 r 1
 restfully false  r 3 r 1
 to cost  r 3 r 1
@@ -245,13 +245,13 @@ since minor for baloney opposite  r 1 r 1
 intervene what surprisingly giddyap embrace  r 1 r 1
 good grief sentence sharply among sociable mundane specials  r 1 r 1
 see anklets golly while for new siding  r 1 r 1
-good nonstop  r 3.5 r 2
+good nonstop  r 3.66666666666667 r 3
 flats evening-wear casement seven one-hundred boy  r 1 r 1
 majestically lasting  r 3 r 1
 shape within see you later until  r 1 r 1
 power than no jovial consult have  r 1 r 1
 whenever welcome hip, hip, hooray an for  r 1 r 1
-formal yes  r 4 r 1
+formal yes  r 3.5 r 2
 improve compassionate few one-hundred-thousand faint bravo  r 1 r 1
 tough apparatuss  r 3 r 1
 noun den  r 2 r 1
@@ -307,7 +307,7 @@ though part waterlogged eighty hateful though  r 1 r 1
 finish inherit direct les and indelible foul  r 1 r 1
 following until compile downright the socks  r 1 r 1
 plus coaxingly  r 2 r 1
-that one  r 3.5 r 2
+that one  r 3.25 r 4
 murmur nine  r 3 r 1
 raise three  r 3 r 1
 desire eight  r 3 r 1
@@ -368,3 +368,54 @@ one-thousand and regarding two fingernails seven  r 2 r 1
 gosh kapow the necessary  r 1 r 1
 openly via cluttered happily resist plus  r 1 r 1
 or retain before some  r 1 r 1
+glad a wet qualify  r 2 r 1
+two versus come on boxers  r 2 r 1
+sing bad oh for bend seventy  r 1 r 1
+weird every few shampoos jaded or  r 1 r 1
+negative guilty just an tv  r 1 r 1
+not soggy  r 3 r 2
+onto swiftly five state vanish appeal  r 1 r 1
+giddyap swell  r 2 r 1
+till eight safes  r 1 r 1
+even if boar deviance searchingly ok  r 1 r 1
+store sizzling  r 1 r 1
+mattress before near  r 1 r 1
+at six versus separately one-hundred whenever  r 1 r 1
+cheers aboard fatally what's up bitterly holy mackerel  r 1 r 1
+press you selfishly what's up or within  r 1 r 1
+but whenever although response  r 1 r 1
+shocking jeez continually as if vastly so that  r 1 r 1
+six ornery say birthday  r 1 r 1
+drag awesome one-hundred-thousand below soon answer behind  r 1 r 1
+visible one succeed  r 2 r 1
+whenever awesome bada bing about flickering eighty tan  r 1 r 1
+by one-hundred twenty wisely few stick unfolded  r 1 r 1
+between a  r 1 r 1
+roasted webbed booya boldly appropriate before  r 1 r 1
+into and  r 1 r 1
+authorized many no until be commence veranda  r 1 r 1
+amend greatly heavenly mousse  r 1 r 1
+careless notice  r 2 r 1
+incur my proceed hallelujah few  r 1 r 1
+to forty capture nice one-thousand last seventy  r 1 r 1
+frequent unethically remote weird task manage loyally  r 1 r 1
+fancy eighty heigh ho  r 2 r 1
+past holiday extension recipe  r 2 r 1
+of support are so that nine excitedly  r 1 r 1
+amid nine  r 2 r 1
+after concerning timely  r 1 r 1
+lake gripping pentagon ill creature  r 1 r 1
+because nonsense amen round analogue unnaturally  r 1 r 1
+rubbery truly fearful  r 3 r 1
+seemingly mama mia eighty beyond recliner hooray  r 1 r 1
+round across scratchy as if mama good evening  r 1 r 1
+devise adjust twenty classify slow lake so  r 1 r 1
+what's up near once  r 2 r 1
+those tremendously boring  r 3 r 1
+long-term generally sardonic  r 3 r 1
+near enthusiastically immense  r 3 r 1
+primary accidentally evil  r 2 r 1
+curly majestically grandiose  r 3 r 1
+while dual to declare ten-thousand appeal  r 2 r 1
+verifiable coaxingly turbulent  r 2 r 1
+have while even though minion  r 1 r 1

@@ -4,7 +4,7 @@ the 0 2.33333333333333 3
 some 0 3 0
 many 0 2 1
 no 0 1 1
-few 0 3 0
+few 0 1 1
 one 0 2.66666666666667 3
 two 0 2 2
 three 0 3 1
@@ -12,7 +12,7 @@ four 0 3 1
 five 0 3 2
 six 0 3 2
 seven 0 3 1
-eight 0 1 1
+eight 0 1 2
 nine 0 3 1
 ten 0 3 1
 twenty 2 2.5 2

@@ -12,7 +12,7 @@ big deal 0
 bingo 0
 boo 0
 boo hoo 0
-booya 0
+booya 1
 boy 0
 bravo 0
 brillliant 0
@@ -73,7 +73,7 @@ jeez 0
 kaboom 0
 kapow 0
 lordy 1
-mama mia 0
+mama mia 1
 man 0
 marvelous 0
 my 0

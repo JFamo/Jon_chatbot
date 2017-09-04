@@ -49,7 +49,7 @@ angry 0
 anguished 0
 animated 0
 annual 0
-another 0
+another 1
 antique 0
 anxious 0
 any 0
@@ -370,7 +370,7 @@ fat 0
 fatal 0
 fatherly 0
 favorable 0
-favorite 0
+favorite 1
 fearful 0
 fearless 0
 feisty 0
@@ -505,7 +505,7 @@ harmless 0
 harmonious 0
 harsh 0
 hasty 0
-hateful 0
+hateful 1
 haunting 0
 healthy 0
 heartfelt 0
@@ -808,7 +808,7 @@ original 0
 other 0
 our 0
 outlying 0
-outgoing 0
+outgoing 1
 outlandish 0
 outrageous 0
 outstanding 0
@@ -847,7 +847,7 @@ plaintive 0
 plastic 0
 playful 0
 pleasant 0
-pleased 0
+pleased 1
 pleasing 0
 plump 0
 plush 0
@@ -870,7 +870,7 @@ practical 0
 precious 0
 present 0
 prestigious 0
-pretty 0
+pretty 1
 precious 0
 previous 0
 pricey 0
@@ -1148,7 +1148,7 @@ thirsty 0
 this 0
 thorough 0
 thorny 0
-those 0
+those 1
 thoughtful 0
 threadbare 0
 thrifty 0
@@ -1265,7 +1265,7 @@ vivacious 0
 vivid 0
 voluminous 0
 wan 0
-warlike 0
+warlike 1
 warm 0
 warmhearted 0
 warped 0

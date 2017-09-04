@@ -4,7 +4,7 @@ accidentally 0
 actually 0
 adventurously 0
 afterwards 0
-almost 0
+almost 1
 always 0
 annually 0
 anxiously 0

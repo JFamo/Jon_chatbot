@@ -189,7 +189,7 @@ assist 0
 assistance 0
 assistant 0
 associate 0
-association 0
+association 1
 assumption 0
 asterisk 0
 astrakhan 0
@@ -992,7 +992,7 @@ cover 0
 coverall 0
 cow 0
 cowbell 0
-cowboy 0
+cowboy 1
 crab 0
 crack 0
 cracker 0
@@ -1176,7 +1176,7 @@ deviance 0
 device 0
 devil 0
 dew 0
-dhow 0
+dhow 1
 diadem 0
 diamond 0
 diaphragm 0
@@ -1832,7 +1832,7 @@ grouse 0
 growth 0
 guarantee 0
 guard 0
-guess 0
+guess 1
 guest 0
 guestbook 0
 guidance 0
@@ -1861,7 +1861,7 @@ haircut 0
 half 0
 half-brother 0
 half-sister 0
-halibut 0
+halibut 1
 hall 0
 hallway 0
 hamaki 0
@@ -2206,7 +2206,7 @@ kill 0
 kilogram 0
 kilometer 0
 kilt 0
-kimono 0
+kimono 1
 kind 0
 kindness 0
 king 0
@@ -2285,7 +2285,7 @@ learning 1
 leash 0
 leather 0
 leave 0
-leaver 0
+leaver 1
 lecture 0
 leek 0
 leg 0
@@ -2371,7 +2371,7 @@ love 0
 low 0
 loyalty 0
 luck 0
-luggage 0
+luggage 1
 lumber 0
 lumberman 0
 lunch 0
@@ -2648,7 +2648,7 @@ need 0
 needle 0
 negative 0
 negligee 0
-negotiation 0
+negotiation 1
 neologism 0
 neon 0
 nephew 0
@@ -2694,7 +2694,7 @@ notebook 0
 nothing 0
 notice 0
 notify 0
-notoriety 0
+notoriety 1
 nougat 0
 novel 0
 nudge 0
@@ -2706,7 +2706,7 @@ nurse 0
 nursery 0
 nurture 0
 nut 0
-nutrition 0
+nutrition 1
 nylon 0
 oak 0
 oar 0
@@ -2846,7 +2846,7 @@ pantsuit 0
 panty 0
 pantyhose 0
 paper 0
-paperback 0
+paperback 1
 parable 0
 parachute 0
 parade 0
@@ -3268,7 +3268,7 @@ reactant 0
 reaction 0
 read 0
 reading 0
-reality 0
+reality 1
 reamer 0
 rear 0
 reason 0
@@ -3288,7 +3288,7 @@ recruit 0
 rectangle 0
 red 0
 redesign 0
-rediscovery 0
+rediscovery 1
 reduction 0
 reef 0
 refectory 0
@@ -3827,7 +3827,7 @@ stamp 0
 stance 0
 stand 0
 standard 0
-standoff 0
+standoff 1
 star 0
 start 0
 starter 0
@@ -3865,7 +3865,7 @@ step-uncle 0
 stew 0
 stick 0
 stiletto 0
-still 0
+still 1
 stinger 0
 stitch 0
 stock 0
@@ -3879,7 +3879,7 @@ stonework 0
 stool 0
 stop 0
 stopsign 0
-stopwatch 0
+stopwatch 1
 storage 0
 store 0
 storey 0
@@ -4083,7 +4083,7 @@ therapist 0
 thermals 0
 thermometer 0
 thigh 0
-thing 0
+thing 1
 thinking 0
 thirst 0
 thistle 1
@@ -4108,7 +4108,7 @@ ticket 0
 tie 0
 tiger 0
 tight 0
-tights 0
+tights 1
 tile 0
 till 0
 timbale 0
@@ -4150,7 +4150,7 @@ toot 0
 tooth 0
 toothbrush 0
 toothpaste 0
-toothpick 0
+toothpick 1
 top 0
 top-hat 0
 topic 0
@@ -4279,12 +4279,12 @@ underneath 0
 underpants 0
 underpass 0
 undershirt 0
-understanding 0
+understanding 1
 underwear 0
 underwire 0
 unemployment 0
 unibody 0
-uniform 0
+uniform 1
 union 0
 unique 0
 unit 0
@@ -4402,7 +4402,7 @@ washer 0
 washtub 0
 wasp 0
 waste 0
-wastebasket 0
+wastebasket 1
 watch 0
 watchmaker 0
 water 0
@@ -4430,7 +4430,7 @@ weekend 0
 weekender 0
 weight 0
 weird 0
-welcome 0
+welcome 1
 welfare 0
 well 1
 west 0
@@ -4441,7 +4441,7 @@ whale 0
 wharf 0
 wheat 0
 wheel 0
-whereas 0
+whereas 1
 while 0
 whip 0
 whirlpool 0
@@ -4474,13 +4474,13 @@ wingtip 0
 winner 0
 winter 0
 wire 0
-wisdom 0
+wisdom 1
 wiseguy 0
 wish 0
 wisteria 0
 witch 0
 witch-hunt 0
-withdrawal 0
+withdrawal 1
 witness 0
 wolf 0
 wombat 0
@@ -4526,9 +4526,9 @@ yarmulke 0
 yarn 0
 yawl 0
 year 0
-yeast 0
+yeast 1
 yellow 0
-yesterday 0
+yesterday 1
 yew 0
 yin 0
 yoga 0
@@ -4546,9 +4546,9 @@ ziggurat 0
 zinc 0
 zipper 0
 zither 1
-zone 0
+zone 1
 zoo 0
-zoologist 0
+zoologist 1
 zoology 0
 zoot-suit 1
 zucchini 1

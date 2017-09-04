@@ -58,7 +58,7 @@ than 0
 through 0
 to 0
 toward 0
-towards 0
+towards 1
 under 0
 underneath 0
 unlike 0

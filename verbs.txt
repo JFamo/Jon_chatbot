@@ -728,7 +728,7 @@ allege 0
 command 0
 consume 0
 convey 0
-correct 0
+correct 1
 educate 0
 equip 0
 execute 0

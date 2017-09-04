@@ -66,13 +66,13 @@ holy mackerel 0
 ho hum 0
 hooray 0
 howdy 0
-huh 0
+huh 1
 ick 0
 indeed 0
 jeez 0
 kaboom 0
 kapow 0
-lordy 0
+lordy 1
 mama mia 0
 man 0
 marvelous 0

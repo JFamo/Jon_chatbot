@@ -3,6 +3,9 @@ use strict;
 use warnings;
 use chatbotFunctions;
 use Tie::File;
+use Win32::OLE;
+$Win32::OLE::Warn = 3;
+my $speaker = Win32::OLE->new('SAPI.spvoice');
 
 #variables
 my $doChatLoop = 1; #loop variable
@@ -222,6 +225,7 @@ while($doChatLoop == 1){
 							my $outStr;
 							$outStr = substr $responses[$i], 0, index($responses[$i], " r ");
 							print $outStr . "\n";
+							$speaker->Speak( $outStr );
 							$responseRating = $q;
 							last;
 
@@ -295,7 +299,6 @@ while($doChatLoop == 1){
 
 	if($randChance <= 7){
 		$sentenceStructure = $sentencesPossible[rand @sentencesPossible];
-		print "trying top";
 	}
 	else{
 		$sentenceStructure = makeSentenceStructure();
@@ -344,6 +347,8 @@ while($doChatLoop == 1){
 			}
 
 		}
+
+		$speaker->Speak( $output );
 
 	}
 

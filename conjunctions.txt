@@ -4,7 +4,7 @@ but 0
 nor 0
 so 0
 for 0
-yet 0
+yet 1
 after 0
 although 0
 as 0

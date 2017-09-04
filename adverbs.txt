@@ -323,7 +323,7 @@ sedately 0
 seemingly 0
 selfishly 0
 separately 0
-seriously 0
+seriously 1
 sheepishly 0
 smoothly 0
 solemnly 0

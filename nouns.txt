@@ -3742,7 +3742,7 @@ sorbet 0
 sorrow 0
 sort 0
 soulmate 0
-sound 0
+sound 1
 soup 0
 source 0
 sourwood 0
@@ -3796,7 +3796,7 @@ sport 0
 spot 0
 spotlight 0
 spray 0
-spread 0
+spread 1
 spring 0
 sprinter 0
 sprout 0
@@ -3990,7 +3990,7 @@ switchboard 0
 swivel 0
 sword 0
 swordfish 0
-sycamore 0
+sycamore 1
 symmetry 0
 sympathy 0
 syndicate 0

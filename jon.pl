@@ -231,6 +231,7 @@ while($doChatLoop == 1){
 				#if it has a good rating, use it
 				if($q >= 4){
 
+					$output = $tempResponse[0];
 					print $tempResponse[0] . "\n";
 					$speaker->Speak( $tempResponse[0] );
 					$responseRating = $q;
@@ -424,18 +425,19 @@ if($doChatLoop == 1){
 	if ($rating =~ /^[1-5]$/) {
 
 		#check for existing response
-		my @temp = isDupeResponse($output);
 		print "Dupe:".$hasResponseSaved."\n";
-		print "Index:".$temp[1]."\n";
 		# if it already exists, update its rating
 		if($hasResponseSaved != 0){
 
+			my $temp = getDupeIndex($output);
+			print "Index:".$temp."\n";
+
 			tie @openDB, 'Tie::File', "responses.txt" or die;
 
-			my $splitString = " r ";
+			my $splitString = "r";
 
 			#put the parts of this response into an array
-			my @tempResponse = split / $splitString /, $openDB[$temp[1]];
+			my @tempResponse = split / $splitString /, $openDB[$temp];
 
 			#update the amount of uses
 			$tempResponse[2] += 1;
@@ -444,7 +446,7 @@ if($doChatLoop == 1){
 			$tempResponse[1] = ((($tempResponse[2] - 1) * $tempResponse[1]) + $rating ) / $tempResponse[2];
 
 			#add it to the database
-			$openDB[$temp[1]] = join $splitString, @tempResponse;
+			$openDB[$temp] = join " ".$splitString." ", @tempResponse;
 
 			untie @openDB;
 

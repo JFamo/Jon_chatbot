@@ -231,7 +231,7 @@ deadly 0
 deafening 0
 dear 0
 dearest 0
-decent 0
+decent 1
 decimal 0
 decisive 0
 deep 0

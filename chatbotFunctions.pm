@@ -6,10 +6,10 @@ use Exporter;
 our @ISA= qw( Exporter );
 
 # these CAN be exported.
-our @EXPORT_OK = qw( isValidWord textFileToArray isProbableQuestion fixString isProbableImperative isProbableExclamatory makeSentenceStructure responseKeyType arrayFromStructure highestDB1Position getDB1Index getRandom isDupeResponse addOccurence removeDupes );
+our @EXPORT_OK = qw( isValidWord textFileToArray isProbableQuestion fixString isProbableImperative isProbableExclamatory makeSentenceStructure responseKeyType arrayFromStructure highestDB1Position getDB1Index getRandom isDupeResponse addOccurence getDupeIndex );
 
 # these are exported by default.
-our @EXPORT = qw( isValidWord textFileToArray isProbableQuestion fixString isProbableImperative isProbableExclamatory makeSentenceStructure responseKeyType arrayFromStructure highestDB1Position getDB1Index getRandom isDupeResponse addOccurence removeDupes );
+our @EXPORT = qw( isValidWord textFileToArray isProbableQuestion fixString isProbableImperative isProbableExclamatory makeSentenceStructure responseKeyType arrayFromStructure highestDB1Position getDB1Index getRandom isDupeResponse addOccurence getDupeIndex );
 
 sub isValidWord{
 
@@ -327,13 +327,11 @@ sub getRandom{
 
 }
 
-sub isDupeResponse {
+sub getDupeIndex {
 
 	my $str = $_[0];
 	my @responses;
-	my @out;
-	$out[0] = 0;
-	$out[1] = 0;
+	my $out;
 
 	tie @responses, 'Tie::File', "responses.txt" or die;
 
@@ -350,8 +348,7 @@ sub isDupeResponse {
 
 			if($tempResponse[0] eq $str){
 
-				$out[0] = 1;
-				$out[1] = $i;
+				$out = $i;
 				last;
 
 			}
@@ -362,7 +359,7 @@ sub isDupeResponse {
 
 	untie @responses;
 
-	return @out;
+	return $out;
 
 }
 

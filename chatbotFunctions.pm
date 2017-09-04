@@ -6,10 +6,10 @@ use Exporter;
 our @ISA= qw( Exporter );
 
 # these CAN be exported.
-our @EXPORT_OK = qw( isValidWord textFileToArray isProbableQuestion fixString isProbableImperative isProbableExclamatory makeSentenceStructure responseKeyType arrayFromStructure highestDB1Position getDB1Index getRandom isDupeResponse );
+our @EXPORT_OK = qw( isValidWord textFileToArray isProbableQuestion fixString isProbableImperative isProbableExclamatory makeSentenceStructure responseKeyType arrayFromStructure highestDB1Position getDB1Index getRandom isDupeResponse addOccurence removeDupes );
 
 # these are exported by default.
-our @EXPORT = qw( isValidWord textFileToArray isProbableQuestion fixString isProbableImperative isProbableExclamatory makeSentenceStructure responseKeyType arrayFromStructure highestDB1Position getDB1Index getRandom isDupeResponse );
+our @EXPORT = qw( isValidWord textFileToArray isProbableQuestion fixString isProbableImperative isProbableExclamatory makeSentenceStructure responseKeyType arrayFromStructure highestDB1Position getDB1Index getRandom isDupeResponse addOccurence removeDupes );
 
 sub isValidWord{
 
@@ -363,6 +363,61 @@ sub isDupeResponse {
 	untie @responses;
 
 	return $out;
+
+}
+
+sub addOccurence {
+
+	my @responses;
+
+	tie @responses, 'Tie::File', "responses.txt" or die;
+
+	for(my $i = 0; $i < @responses; $i ++){
+
+		$array[$i] .= " r 1";
+
+	}
+
+	untie @responses;
+
+
+}
+
+sub removeDupes{
+
+	my $splitString = " r ";
+	my @responses;
+
+	tie @responses, 'Tie::File', "responses.txt" or die;
+
+	#for each saved response
+	for(my $i = 0; $i < @responses; $i++){
+
+		#put the ratings on this structure into an array
+		my @tempOriginal = split / $splitString /, $responses[$i];
+
+		#for every other saved response
+		for(my $q = $i; $q < @responses; $q++){
+
+			#predict if it is correct
+			if(index($responses[$q], $tempOriginal[0]) != 0){
+
+				#put the ratings on this structure into an array
+				my @tempResponse = split / $splitString /, $responses[$q];
+
+				if($tempResponse[0] eq $tempOriginal[0]){
+
+					splice @responses, $q, 1;
+
+				}
+
+			}
+
+		}
+
+	}
+
+	untie @responses;
 
 }
 

@@ -1073,3 +1073,8 @@ article adverb adverb  s 0 s 0 s 0 s 0 s 0 s 0 s 1 s 1
 
 adjective noun adverb conjunction interjection article  s 0 s 0 s 0 s 0 s 0 s 0 s 2 s 1
 
+preposition interjection adjective verb adjective adverb article  s 0 s 0 s 0 s 0 s 0 s 0 s 1 s 1
+
+adverb article verb article  s 0 s 0 s 0 s 0 s 0 s 0 s 3.5 s 2
+
+article noun adjective preposition article  s 0 s 0 s 0 s 0 s 0 s 0 s 0 s 0

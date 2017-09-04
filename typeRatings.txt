@@ -58,11 +58,11 @@
 0.8 spl 0 spl 0
 0.9 spl 0 spl 0
 1 spl 0 spl 0
-0 spl 2.11111111111111 spl 9
+0 spl 2.2 spl 10
 
 0.1 spl 2.25 spl 12
 
-0.2 spl 2.34177215189875 spl 158
+0.2 spl 2.34375000000002 spl 160
 
 0.3 spl 2 spl 5
 

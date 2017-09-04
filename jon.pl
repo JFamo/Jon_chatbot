@@ -428,6 +428,28 @@ if($doChatLoop == 1){
 
 		untie @openDB;
 
+		#update progress report
+		tie @openDB, 'Tie::File', "progress.txt" or die;
+
+			#update the OOC
+			$openDB[3] += 1;
+
+			#update the OMR
+			$openDB[1] = ((($openDB[3] - 1) * $openDB[1]) + $rating ) / $openDB[3];
+
+			#check for progress milestone
+			if($openDB[3] % 100 == 0 || $openDB[3] == 0){
+
+				my $progressReport = "";
+
+				$progressReport .= $openDB[3] . "\t" . $openDB[1];
+
+				push @openDB, $progressReport;
+
+			}
+
+		untie @openDB;
+
 
 
 	}

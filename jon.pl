@@ -229,7 +229,7 @@ while($doChatLoop == 1){
 				my $q = $tempResponse[1];
 
 				#if it has a good rating, use it
-				if($q >= 4){
+				if($q >= 3){
 
 					$output = $tempResponse[0];
 					print $tempResponse[0] . "\n";

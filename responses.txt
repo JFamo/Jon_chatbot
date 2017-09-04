@@ -13,7 +13,7 @@ hooray majestically but unlike sense few lazily  r 1 r 1
 embarrassed unless nope good evening freeze darn against check anti  r 1 r 1
 deny sentence breed whenever especially sometimes mansard even though of regarding brochure gosh  r 1 r 1
 more good tender detailed poultry gather again rise project squiggly run  r 1 r 1
-few sense hate  r 3 r 1
+few sense hate  r 3.33333333333333 r 3
 yummy whenever as if nine eighty  r 1 r 1
 it likely pinworm attic anxious bound vainly beside yabba dabba do oblong brrr constitute  r 1 r 1
 again dreamily proud two awkwardly charge educate near many dearest dependable inhibit  r 1 r 1
@@ -40,7 +40,7 @@ minus wherever nope solidly greedily kaboom till  r 1 r 1
 as if ah steep sense wherever  r 1 r 1
 derrick vibration  r 2 r 1
 although sixty bad after upon  r 1 r 1
-polite one-thousand cephalopod generously seven  r 3 r 1
+polite one-thousand cephalopod generously seven  r 2 r 2
 sponsor stop concerning for heaven's sake  r 1 r 1
 tightly question jeez market versus nope  r 1 r 1
 crush seventy when wrong  r 1 r 1
@@ -60,7 +60,7 @@ keenly demanding pine seven submit focused innocent  r 1 r 1
 because one-million silently nope bingo  r 1 r 1
 argue what fifty cappelletti evaluate  r 1 r 1
 see you soon cupboard descend allege over scared no  r 1 r 1
-ten-thousand you darn bagpipe  r 3 r 1
+ten-thousand you darn bagpipe  r 2.5 r 2
 unlike quicker across  r 3 r 1
 three learning bada bing cloister  r 2 r 1
 outside usefully near  r 1 r 1
@@ -151,7 +151,7 @@ for enjoy  r 4 r 1
 gee bravo  r 5 r 1
 howdy gosh  r 3 r 1
 during lordy one-thousand illustrious yummy whether  r 1 r 1
-within nope  r 3 r 1
+within nope  r 2.5 r 2
 welcome enthusiastically near ninety amid  r 3 r 1
 target behave one sticky chipmunk  r 3 r 1
 lord bah  r 2 r 1
@@ -159,7 +159,7 @@ lord come on  r 3 r 1
 lord see you soon  r 1 r 1
 lord when one challenge ninety by nor  r 1 r 1
 via bye  r 2 r 1
-you helplessly correctly  r 3 r 1
+you helplessly correctly  r 2 r 2
 though blaring creep so ten hi  r 1 r 1
 tambourine fervently randomly  r 2 r 1
 woo-hoo one-thousand hello cuckoo pretty under five  r 1 r 1
@@ -245,7 +245,7 @@ since minor for baloney opposite  r 1 r 1
 intervene what surprisingly giddyap embrace  r 1 r 1
 good grief sentence sharply among sociable mundane specials  r 1 r 1
 see anklets golly while for new siding  r 1 r 1
-good nonstop  r 3 r 1
+good nonstop  r 3.5 r 2
 flats evening-wear casement seven one-hundred boy  r 1 r 1
 majestically lasting  r 3 r 1
 shape within see you later until  r 1 r 1
@@ -353,3 +353,10 @@ eight amen  r 1 r 1
 typewriters upon super one that wow  r 1 r 1
 interrupt loyally two demand edit quaintly as long as  r 1 r 1
 please as long as although any  r 1 r 1
+near outside  r 2 r 1
+at allow carve hi  r 2 r 1
+so hourly correctly  r 2 r 1
+before mostly boldly  r 2 r 1
+dance one talkative as if showy hmm besides  r 1 r 1
+slim opposite novel rudely  r 1 r 1
+an urgently wildly  r 1 r 1

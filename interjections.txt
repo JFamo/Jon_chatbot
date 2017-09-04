@@ -81,7 +81,7 @@ my goodness 0
 nah 0
 no problem 0
 no way 0
-nope 0
+nope 1
 nuts 0
 oh 0
 ok 0
@@ -99,7 +99,7 @@ well 0
 whoop-de-doo 0
 woo-hoo 0
 wow 0
-what's up 0
+what's up 1
 yabba dabba do 0
 yadda yadda 0
 yippee 0

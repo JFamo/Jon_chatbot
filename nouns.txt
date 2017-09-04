@@ -239,7 +239,7 @@ backpack 0
 bacon 0
 bad 0
 badge 0
-badger 0
+badger 1
 bafflement 0
 bag 0
 bagel 0
@@ -519,7 +519,7 @@ bubble 0
 bucket 0
 buckle 0
 bud 0
-buddy 0
+buddy 1
 budget 0
 buffer 0
 buffet 0
@@ -1681,7 +1681,7 @@ fun 0
 function 0
 fundraising 0
 funeral 0
-funny 0
+funny 1
 fur 0
 furnace 0
 furniture 0
@@ -1778,7 +1778,7 @@ gong 0
 good 0
 goodbye 0
 good-bye 0
-goodie 0
+goodie 1
 goose 0
 gopher 0
 gore-tex 0
@@ -1929,10 +1929,10 @@ helicopter 0
 helium 0
 hell 0
 hellcat 0
-hello 0
+hello 1
 helmet 0
 helo 0
-help 0
+help 1
 hemp 0
 hen 0
 herb 0
@@ -2297,7 +2297,7 @@ leisure 0
 lemon 0
 lemonade 0
 lemur 0
-length 0
+length 1
 lentil 0
 leprosy 0
 lesson 0
@@ -2575,7 +2575,7 @@ monitor 0
 monkey 0
 monocle 0
 monotheism 0
-monsoon 0
+monsoon 1
 monster 0
 month 0
 mood 0
@@ -2959,7 +2959,7 @@ philosophy 0
 phone 0
 photo 0
 photographer 0
-phrase 0
+phrase 1
 physical 0
 physics 0
 pianist 0
@@ -3374,7 +3374,7 @@ ride 0
 rider 0
 ridge 0
 rifle 0
-right 0
+right 1
 rim 0
 ring 0
 ringworm 0
@@ -3409,7 +3409,7 @@ rostrum 0
 rotate 0
 rough 0
 round 0
-roundabout 0
+roundabout 1
 route 0
 router 0
 routine 0
@@ -3427,7 +3427,7 @@ ruin 0
 rule 0
 rum 0
 run 0
-runaway 0
+runaway 1
 runner 0
 rush 0
 rutabaga 0
@@ -3542,9 +3542,9 @@ semicircle 0
 semicolon 0
 senator 0
 senior 0
-sense 0
+sense 1
 sensitive 0
-sentence 0
+sentence 1
 sepal 0
 septicaemia 0
 series 0
@@ -3722,7 +3722,7 @@ sofa 0
 soft 0
 softball 0
 softdrink 0
-softening 0
+softening 1
 software 0
 soil 0
 soldier 0
@@ -3905,7 +3905,7 @@ strike 0
 string 0
 strip 0
 stroke 0
-structure 0
+structure 1
 struggle 0
 stud 0
 student 0
@@ -3957,7 +3957,7 @@ surface 0
 surfboard 0
 surgeon 0
 surgery 0
-surname 0
+surname 1
 surprise 0
 surround 0
 survey 0
@@ -4086,12 +4086,12 @@ thigh 0
 thing 0
 thinking 0
 thirst 0
-thistle 0
+thistle 1
 thomas 0
 thong 0
 thongs 0
 thorn 0
-thought 0
+thought 1
 thread 0
 thrill 0
 throat 0
@@ -4241,7 +4241,7 @@ tuba 0
 tube 0
 tugboat 0
 tulip 0
-tummy 0
+tummy 1
 tuna 0
 tune 0
 tune-up 0
@@ -4319,7 +4319,7 @@ vaulting 0
 veal 0
 vegetable 0
 vegetarianism 0
-vegetation 0
+vegetation 1
 vehicle 0
 veil 0
 vein 0
@@ -4334,7 +4334,7 @@ verdict 0
 vermicelli 0
 verse 0
 version 0
-vertigo 0
+vertigo 1
 verve 0
 vessel 0
 vest 0
@@ -4365,7 +4365,7 @@ visual 0
 vitality 0
 vixen 0
 voice 0
-volcano 0
+volcano 1
 volleyball 0
 volume 0
 voyage 0
@@ -4432,7 +4432,7 @@ weight 0
 weird 0
 welcome 0
 welfare 0
-well 0
+well 1
 west 0
 western 0
 wet-bar 0
@@ -4484,7 +4484,7 @@ withdrawal 0
 witness 0
 wolf 0
 wombat 0
-women 0
+women 1
 wonder 0
 wood 0
 woodland 0
@@ -4516,7 +4516,7 @@ wrinkle 0
 wrist 0
 writer 0
 writing 0
-wrong 0
+wrong 1
 xylophone 0
 yacht 0
 yak 0
@@ -4536,7 +4536,7 @@ yogurt 0
 yoke 0
 you 0
 young 0
-youth 0
+youth 1
 yurt 0
 zampone 0
 zebra 0
@@ -4550,5 +4550,5 @@ zone 0
 zoo 0
 zoologist 0
 zoology 0
-zoot-suit 0
-zucchini 0
+zoot-suit 1
+zucchini 1

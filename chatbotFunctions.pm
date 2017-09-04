@@ -159,7 +159,7 @@ sub makeSentenceStructure {
 	my $outStr = "";
 
 	#give a random length from 1-12
-	my $length = int(rand(12)) + 1;
+	my $length = int(rand(6)) + 1;
 
 	#add parts of speech
 	for(my $i = 0; $i <= $length; $i ++){
@@ -225,6 +225,7 @@ sub arrayFromStructure {
 
 	#vars
 	my $str = $_[0];
+	my $splitString = " ";
 	my @out;
 
 	#put in array

@@ -3,7 +3,7 @@ about 0
 above 0
 across 0
 after 0
-against 0
+against 1
 along 0
 amid 0
 among 0

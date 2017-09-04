@@ -76,6 +76,7 @@ while($doChatLoop == 1){
 	my $wordInDB = 1;
 	my $interestWordPartOfSpeech = "";
 	my $hasResponseSaved = 0;
+	my $interestWordIndex;
 	my @currentDB;
 	while($dbWordFound == 0){
 
@@ -86,6 +87,7 @@ while($doChatLoop == 1){
 					$hasResponseSaved = 1;
 				}
 				$interestWordPartOfSpeech = "conjunction";
+				$interestWordIndex = $i;
 				$dbWordFound = 1;
 			}
 		}
@@ -98,6 +100,7 @@ while($doChatLoop == 1){
 					$hasResponseSaved = 1;
 				}	
 				$interestWordPartOfSpeech = "article";
+				$interestWordIndex = $i;
 				$dbWordFound = 1;
 			}
 		}
@@ -110,6 +113,7 @@ while($doChatLoop == 1){
 					$hasResponseSaved = 1;
 				}	
 				$interestWordPartOfSpeech = "preposition";
+				$interestWordIndex = $i;
 				$dbWordFound = 1;
 			}
 		}
@@ -122,6 +126,7 @@ while($doChatLoop == 1){
 					$hasResponseSaved = 1;
 				}	
 				$interestWordPartOfSpeech = "interjection";
+				$interestWordIndex = $i;
 				$dbWordFound = 1;
 			}
 		}
@@ -134,6 +139,7 @@ while($doChatLoop == 1){
 					$hasResponseSaved = 1;
 				}	
 				$interestWordPartOfSpeech = "adverb";
+				$interestWordIndex = $i;
 				$dbWordFound = 1;
 			}
 		}
@@ -146,6 +152,7 @@ while($doChatLoop == 1){
 					$hasResponseSaved = 1;
 				}	
 				$interestWordPartOfSpeech = "verb";
+				$interestWordIndex = $i;
 				$dbWordFound = 1;
 			}
 		}
@@ -158,6 +165,7 @@ while($doChatLoop == 1){
 					$hasResponseSaved = 1;
 				}	
 				$interestWordPartOfSpeech = "adjective";
+				$interestWordIndex = $i;
 				$dbWordFound = 1;
 			}
 		}
@@ -170,6 +178,7 @@ while($doChatLoop == 1){
 					$hasResponseSaved = 1;
 				}	
 				$interestWordPartOfSpeech = "noun";
+				$interestWordIndex = $i;
 				$dbWordFound = 1;
 			}
 		}
@@ -201,12 +210,12 @@ while($doChatLoop == 1){
 				#loop through all possible ratings to see which it has
 				for(my $q = 1; $q <= 5; $q ++){
 
-					if(index($responses[$i], $q) != -1 && index($responses[$i], $q) > index($responses[$i], "ResponseRating")){
+					if(index($responses[$i], $q) != -1 && index($responses[$i], $q) > index($responses[$i], " r ")){
 
 						if($q >= 4){
 
 							my $outStr;
-							$outStr = substr $responses[$i], 0, index($responses[$i], "ResponseRating") - 1;
+							$outStr = substr $responses[$i], 0, index($responses[$i], " r ");
 							print $outStr . "\n";
 							$responseRating = $q;
 							last;
@@ -255,13 +264,13 @@ while($doChatLoop == 1){
 	#loop through all possible structures
 	for(my $i = 0; $i < @sentences; $i ++){
 
-		my $splitString = "ResponseRating";
+		my $splitString = "s";
 
 		#put the ratings on this structure into an array
 		my @structRatings = split / $splitString /, $sentences[$i];
 
 		#if it is a coherent sentence structure
-		if($structRatings[$sentenceType] >= 3){
+		if($structRatings[($sentenceType * 2) - 1] >= 3){
 
 			#make it a possible response
 			push @sentencesPossible, $structRatings[0];
@@ -271,14 +280,24 @@ while($doChatLoop == 1){
 
 	}
 
+	#if I found no suitable structures, make a new one
+	if(@sentencesPossible == 0){
+		$randChance = 9;
+	}
+
 	#if I'm not going to make a new one, choose one
 	my @structure;
 
 	if($randChance <= 7){
 		$sentenceStructure = $sentencesPossible[rand @sentencesPossible];
+		print "trying top";
 	}
 	else{
 		$sentenceStructure = makeSentenceStructure();
+		#add to the structures file
+		open(my $fhused, ">>", "structures.txt") or die "Can't open >> structures.txt: $!";
+		print $fhused $sentenceStructure . " s 0 s 0 s 0 s 0 s 0 s 0 s 0 s 0\n";
+		close $fhused;
 	}
 	#get word array from sentence structure
 	@structure = arrayFromStructure($sentenceStructure);
@@ -326,6 +345,8 @@ while($doChatLoop == 1){
 #USER RATING
 if($doChatLoop == 1){
 
+	my @openDB;
+
 	#prompt
 	print "\nHow Would You Rate My Response? (1-5)\n";
 
@@ -337,8 +358,47 @@ if($doChatLoop == 1){
 
 		#add output to the responses file
 		open(my $fhused, ">>", "responses.txt") or die "Can't open >> responses.txt: $!";
-		print $fhused $output . " ResponseRating " . $rating . "\n";
+		print $fhused $output . " r " . $rating . "\n";
 		close $fhused;
+
+		#change word response value
+		if($hasResponseSaved == 0 && $wordInDB == 1){
+			tie @openDB, 'Tie::File', $interestWordPartOfSpeech."s.txt" or die;
+			$openDB[$interestWordIndex] =~ s/ 0/ 1/gi;
+			untie @openDB;
+		}
+
+		#change sentence structure rating
+		tie @openDB, 'Tie::File', "structures.txt" or die;
+
+		#loop through all possible structures
+		for(my $i = 0; $i < @openDB; $i ++){
+
+			my $splitString = "s";
+
+			#put the ratings on this structure into an array
+			my @structRatings = split / $splitString /, $openDB[$i];
+
+			#if this is the structure I used
+			if($sentenceStructure eq $structRatings[0]){
+
+				#update the amount of uses
+				$structRatings[$sentenceType * 2] += 1;
+
+				#update the rating
+				$structRatings[($sentenceType * 2) - 1] = ((($structRatings[$sentenceType * 2] - 1) * $structRatings[($sentenceType * 2) - 1]) + $rating ) / $structRatings[$sentenceType * 2];
+
+				#add it to the database
+				$openDB[$i] = join " ".$splitString." ", @structRatings;
+				$openDB[$i] .= "\n";
+
+			}
+
+		}
+
+		untie @openDB;
+
+
 
 	}
 

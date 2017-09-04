@@ -60,11 +60,12 @@ while($doChatLoop == 1){
 	#vars
 	my $interestWordPos;
 	my @tempReturn;
+	my @omrDB;
 	our $db1Index;
-	my $randChance = int(rand(10));
+	my $randChance = getRandom();
 
 	#if I'm gonna use the one with the highest rating
-	if($randChance <= 8){
+	if($randChance > 0){
 		@tempReturn = highestDB1Position($sentenceType);
 		$interestWordPos = $tempReturn[0];
 		$db1Index = $tempReturn[1];
@@ -257,7 +258,7 @@ while($doChatLoop == 1){
 #CHOOSE A SENTENCE STRUCTURE
 
 	#vars
-	$randChance = int(rand(10));
+	$randChance = getRandom();
 	my @sentences;
 	my @sentencesPossible;
 	my $sentenceStructure;
@@ -267,7 +268,7 @@ while($doChatLoop == 1){
 
 	#if no sentence structures, I'm forced to make a new one
 	if(@sentences == 0){
-		$randChance = 9;
+		$randChance = 0;
 	}
 
 	#loop through all possible structures
@@ -291,13 +292,13 @@ while($doChatLoop == 1){
 
 	#if I found no suitable structures, make a new one
 	if(@sentencesPossible == 0){
-		$randChance = 9;
+		$randChance = 0;
 	}
 
 	#if I'm not going to make a new one, choose one
 	my @structure;
 
-	if($randChance <= 7){
+	if($randChance > 0){
 		$sentenceStructure = $sentencesPossible[rand @sentencesPossible];
 	}
 	else{

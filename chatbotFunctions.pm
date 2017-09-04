@@ -6,10 +6,10 @@ use Exporter;
 our @ISA= qw( Exporter );
 
 # these CAN be exported.
-our @EXPORT_OK = qw( isValidWord textFileToArray isProbableQuestion fixString isProbableImperative isProbableExclamatory makeSentenceStructure responseKeyType arrayFromStructure highestDB1Position getDB1Index );
+our @EXPORT_OK = qw( isValidWord textFileToArray isProbableQuestion fixString isProbableImperative isProbableExclamatory makeSentenceStructure responseKeyType arrayFromStructure highestDB1Position getDB1Index getRandom );
 
 # these are exported by default.
-our @EXPORT = qw( isValidWord textFileToArray isProbableQuestion fixString isProbableImperative isProbableExclamatory makeSentenceStructure responseKeyType arrayFromStructure highestDB1Position getDB1Index );
+our @EXPORT = qw( isValidWord textFileToArray isProbableQuestion fixString isProbableImperative isProbableExclamatory makeSentenceStructure responseKeyType arrayFromStructure highestDB1Position getDB1Index getRandom );
 
 sub isValidWord{
 
@@ -303,6 +303,27 @@ sub getDB1Index{
 	my $sentenceType = $_[1];
 
 	return (10 * $val) + (11 * ($sentenceType - 1));
+
+}
+
+sub getRandom{
+
+	my @omrDB;
+	my $omr;
+	my $rand;
+
+	#check OMR
+	tie @omrDB, 'Tie::File', "progress.txt" or die;
+
+	$omr = $omrDB[1];
+
+	untie @omrDB;
+
+	$rand = 2 ** $omr;
+
+	$rand = int(rand($rand));
+
+	return $rand;
 
 }
 

@@ -22,7 +22,7 @@
 
 0.1 spl 1 spl 1
 
-0.2 spl 1.75 spl 4
+0.2 spl 1.5 spl 6
 
 0.3 spl 1 spl 1
 
@@ -31,13 +31,13 @@
 0.5 spl 1 spl 1
 
 0.6 spl 0 spl 0
-0.7 spl 1 spl 1
+0.7 spl 1 spl 2
 
-0.8 spl 1.75 spl 8
+0.8 spl 1.66666666666667 spl 9
 
-0.9 spl 1 spl 1
+0.9 spl 1 spl 3
 
-1 spl 1.77333333333334 spl 75
+1 spl 1.72839506172841 spl 81
 
 0 spl 0 spl 0
 0.1 spl 0 spl 0
@@ -55,7 +55,7 @@
 
 0.1 spl 2 spl 1
 
-0.2 spl 2.53333333333338 spl 90
+0.2 spl 2.53846153846158 spl 91
 
 0.3 spl 2 spl 2
 

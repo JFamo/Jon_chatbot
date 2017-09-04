@@ -1,5 +1,3 @@
-article noun article noun article noun article noun s 5 s 50 s 5 s 50 s 5 s 50 s 4.94117647058824 s 51
-
 preposition adverb conjunction preposition interjection verb verb preposition  s 0 s 0 s 0 s 0 s 0 s 0 s 1 s 1
 
 verb adverb adjective verb preposition adjective adjective interjection noun verb adverb  s 0 s 0 s 1 s 1 s 0 s 0 s 0 s 0
@@ -974,3 +972,7 @@ noun verb article article adjective  s 0 s 0 s 0 s 0 s 0 s 0 s 0 s 0
 preposition noun adjective adjective noun conjunction  s 0 s 0 s 0 s 0 s 0 s 0 s 0 s 0
 interjection verb noun adverb conjunction adjective  s 0 s 0 s 0 s 0 s 0 s 0 s 0 s 0
 conjunction conjunction  s 0 s 0 s 0 s 0 s 0 s 0 s 0 s 0
+conjunction noun verb noun preposition noun adjective  s 0 s 0 s 0 s 0 s 0 s 0 s 1 s 1
+
+article noun interjection  s 0 s 0 s 0 s 0 s 0 s 0 s 2 s 1
+

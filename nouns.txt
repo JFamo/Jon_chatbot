@@ -2300,7 +2300,7 @@ lemur 0
 length 1
 lentil 0
 leprosy 0
-lesson 0
+lesson 1
 let 0
 letter 0
 lettuce 0

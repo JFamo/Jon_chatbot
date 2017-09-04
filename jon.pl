@@ -531,7 +531,7 @@ if($doChatLoop == 1){
 						$articleParts[3] += 1;
 
 						#update the plurality
-						$articleParts[1] = ((($articleParts[3] - 1) * $articleParts[2]) + $rating ) / $articleParts[3];
+						$articleParts[2] = ((($articleParts[3] - 1) * $articleParts[2]) + $rating ) / $articleParts[3];
 
 						#add it to the database
 						$openDB[$i] = join " ", @articleParts;

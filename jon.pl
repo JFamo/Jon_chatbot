@@ -6,6 +6,7 @@ use Tie::File;
 
 #variables
 my $doChatLoop = 1; #loop variable
+my $output;
 
 #user input loop
 while($doChatLoop == 1){
@@ -286,6 +287,8 @@ while($doChatLoop == 1){
 #GET RANDOM WORDS FROM DATABASE LEVEL 2
 	if($hasResponseSaved == 0){
 
+		$output = "";
+
 		#have I already included the interest word?
 		my $usedInterestWord = 0;
 
@@ -295,6 +298,7 @@ while($doChatLoop == 1){
 			if($usedInterestWord == 0 && $interestWordPartOfSpeech."s" eq $structure[$i] && $wordInDB == 1){
 
 				print $interestWord . " ";
+				$output .= $interestWord . " ";
 				$usedInterestWord = 1;
 
 			}
@@ -309,6 +313,7 @@ while($doChatLoop == 1){
 				$printword = join( "", split(" 1", $printword) );
 
 				print $printword;
+				$output .= $printword;
 
 				untie @currentDB;
 
@@ -321,10 +326,21 @@ while($doChatLoop == 1){
 #USER RATING
 if($doChatLoop == 1){
 
+	#prompt
 	print "\nHow Would You Rate My Response? (1-5)\n";
 
 	my $rating = <STDIN>;
 	chomp $rating;
+
+	#ignore non-1thru5 ratings
+	if ($rating =~ /^[1-5]$/) {
+
+		#add output to the responses file
+		open(my $fhused, ">>", "responses.txt") or die "Can't open >> responses.txt: $!";
+		print $fhused $output . " ResponseRating " . $rating . "\n";
+		close $fhused;
+
+	}
 
 }
 

@@ -213,7 +213,7 @@ naturally 0
 nearly 0
 neatly 0
 nervously 0
-never 0
+never 1
 nicely 0
 noisily 0
 not 0
@@ -254,7 +254,7 @@ randomly 0
 rapidly 0
 rarely 0
 readily 0
-really 0
+really 1
 reassuringly 0
 recklessly 0
 regularly 0

@@ -43,7 +43,7 @@ gee 0
 giddyap 0
 golly 0
 goodbye 0
-goodnight 0
+goodnight 1
 good evening 0
 good grief 0
 good heavens 0
@@ -98,7 +98,7 @@ welcome 0
 well 0
 whoop-de-doo 0
 woo-hoo 0
-wow 0
+wow 1
 what's up 1
 yabba dabba do 0
 yadda yadda 0

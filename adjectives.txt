@@ -663,7 +663,7 @@ limping 0
 linear 0
 lined 0
 liquid 0
-little 0
+little 1
 live 0
 lively 0
 livid 0
@@ -1294,7 +1294,7 @@ well-off 0
 well-to-do 0
 well-worn 0
 wet 0
-which 0
+which 1
 whimsical 0
 whirlwind 0
 whispered 0

@@ -7,8 +7,6 @@ use Win32::OLE;
 $Win32::OLE::Warn = 3;
 my $speaker = Win32::OLE->new('SAPI.spvoice');
 
-removeDupes();
-
 #variables
 my $doChatLoop = 1; #loop variable
 my $output;
@@ -224,7 +222,7 @@ while($doChatLoop == 1){
 			#if this is the right one
 			if(index($responses[$i], $interestWord) != -1){
 
-				my $responseSplitString = " r ";
+				my $responseSplitString = "r";
 
 				#put the ratings on this structure into an array
 				my @tempResponse = split / $responseSplitString /, $responses[$i];
@@ -427,8 +425,10 @@ if($doChatLoop == 1){
 
 		#check for existing response
 		my @temp = isDupeResponse($output);
+		print "Dupe:".$hasResponseSaved."\n";
+		print "Index:".$temp[1]."\n";
 		# if it already exists, update its rating
-		if($temp[0] == 1){
+		if($hasResponseSaved != 0){
 
 			tie @openDB, 'Tie::File', "responses.txt" or die;
 

@@ -320,7 +320,8 @@ adverb article conjunction conjunction preposition adjective preposition  s 1 s 
 
 adjective conjunction noun  s 0 s 0 s 0 s 0 s 1 s 1 s 0 s 0
 
-interjection verb  s 3 s 4 s 0 s 0 s 0 s 0 s 2 s 1
+interjection verb  s 3 s 5 s 0 s 0 s 0 s 0 s 2 s 1
+
 
 
 
@@ -428,9 +429,7 @@ article noun interjection noun conjunction  s 0 s 0 s 2 s 1 s 0 s 0 s 0 s 0
 noun verb adverb article article  s 0 s 0 s 0 s 0 s 0 s 0 s 0 s 0
 preposition adverb adverb conjunction adverb  s 1 s 1 s 0 s 0 s 0 s 0 s 0 s 0
 
-noun conjunction verb article  s 2.66666666666667 s 3 s 0 s 0 s 0 s 0 s 0 s 0
-
-
+noun conjunction verb article  s 2.66666666666667 s 3 s 0 s 0 s 0 s 0 s 1 s 1
 
 adverb adjective preposition preposition interjection article adverb  s 0 s 0 s 0 s 0 s 0 s 0 s 2 s 2
 
@@ -984,7 +983,8 @@ verb noun preposition noun preposition  s 0 s 0 s 0 s 0 s 0 s 0 s 1 s 1
 
 interjection conjunction conjunction verb interjection verb  s 0 s 0 s 1 s 1 s 0 s 0 s 0 s 0
 
-interjection verb  s 3 s 4 s 0 s 0 s 0 s 0 s 0 s 0
+interjection verb  s 3 s 5 s 0 s 0 s 0 s 0 s 0 s 0
+
 
 
 
@@ -993,6 +993,21 @@ noun interjection preposition adjective conjunction adverb adjective  s 1 s 1 s 
 
 adverb noun interjection conjunction conjunction  s 0 s 0 s 1 s 1 s 0 s 0 s 0 s 0
 
-adjective preposition interjection interjection  s 0 s 0 s 0 s 0 s 0 s 0 s 3 s 1
+adjective preposition interjection interjection  s 0 s 0 s 0 s 0 s 0 s 0 s 2 s 2
 
 verb preposition article interjection preposition  s 0 s 0 s 0 s 0 s 0 s 0 s 0 s 0
+verb interjection  s 0 s 0 s 0 s 0 s 0 s 0 s 0 s 0
+conjunction adjective  s 0 s 0 s 0 s 0 s 0 s 0 s 2 s 1
+
+preposition conjunction adjective conjunction  s 0 s 0 s 1 s 1 s 0 s 0 s 0 s 0
+
+noun adverb verb verb interjection noun  s 3 s 1 s 0 s 0 s 0 s 0 s 0 s 0
+
+verb preposition  s 0 s 0 s 0 s 0 s 0 s 0 s 0 s 0
+noun adverb adverb article conjunction  s 0 s 0 s 0 s 0 s 0 s 0 s 1 s 1
+
+conjunction adjective preposition article adverb article  s 0 s 0 s 1 s 1 s 0 s 0 s 0 s 0
+
+noun conjunction verb article  s 0 s 0 s 0 s 0 s 0 s 0 s 1 s 1
+
+conjunction preposition noun preposition  s 0 s 0 s 0 s 0 s 0 s 0 s 0 s 0

@@ -341,9 +341,9 @@ sub isDupeResponse {
 	for(my $i = 0; $i < @responses; $i++){
 
 		#predict if it is correct
-		if(index($responses[$i], $str) != 0){
+		if(index($responses[$i], $str) != -1){
 
-			my $splitString = " r ";
+			my $splitString = "r";
 
 			#put the ratings on this structure into an array
 			my @tempResponse = split / $splitString /, $responses[$i];
@@ -397,7 +397,7 @@ sub removeDupes{
 		my @tempOriginal = split / $splitString /, $responses[$i];
 
 		#for every other saved response
-		for(my $q = $i - 1; $q < @responses; $q++){
+		for(my $q = $i; $q < @responses; $q++){
 
 			#put the ratings on this structure into an array
 			my @tempResponse = split / $splitString /, $responses[$q];

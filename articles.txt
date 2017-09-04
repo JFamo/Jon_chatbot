@@ -6,7 +6,7 @@ many 0 2 1
 no 0 1 1
 few 0 3 0
 one 0 2.66666666666667 3
-two 0 2 1
+two 0 2 2
 three 0 3 1
 four 0 3 1
 five 0 3 2
@@ -16,7 +16,7 @@ eight 0 1 1
 nine 0 3 1
 ten 0 3 1
 twenty 2 2.5 2
-thirty 0 1 1
+thirty 0 1 2
 forty 0 3 0
 fifty 0 1 1
 sixty 0 2.5 2

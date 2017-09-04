@@ -424,13 +424,10 @@ if($doChatLoop == 1){
 	#ignore non-1thru5 ratings
 	if ($rating =~ /^[1-5]$/) {
 
-		#check for existing response
-		print "Dupe:".$hasResponseSaved."\n";
 		# if it already exists, update its rating
 		if($hasResponseSaved != 0){
 
 			my $temp = getDupeIndex($output);
-			print "Index:".$temp."\n";
 
 			tie @openDB, 'Tie::File', "responses.txt" or die;
 

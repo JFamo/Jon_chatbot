@@ -651,7 +651,7 @@ noun interjection  s 2.5 s 2 s 2 s 1 s 0 s 0 s 0 s 0
 
 
 
-conjunction verb conjunction article  s 0 s 0 s 1 s 1 s 0 s 0 s 0 s 0
+conjunction verb conjunction article  s 0 s 0 s 1 s 1 s 0 s 0 s 1 s 1
 
 interjection adjective article verb  s 0 s 0 s 1 s 1 s 0 s 0 s 0 s 0
 
@@ -1075,6 +1075,17 @@ adjective noun adverb conjunction interjection article  s 0 s 0 s 0 s 0 s 0 s 0 
 
 preposition interjection adjective verb adjective adverb article  s 0 s 0 s 0 s 0 s 0 s 0 s 1 s 1
 
-adverb article verb article  s 0 s 0 s 0 s 0 s 0 s 0 s 3.5 s 2
+adverb article verb article  s 0 s 0 s 0 s 0 s 0 s 0 s 2.75 s 4
 
-article noun adjective preposition article  s 0 s 0 s 0 s 0 s 0 s 0 s 0 s 0
+article noun adjective preposition article  s 1 s 1 s 0 s 0 s 0 s 0 s 0 s 0
+
+conjunction adverb noun article  s 1 s 1 s 0 s 0 s 0 s 0 s 0 s 0
+
+article conjunction preposition article noun article  s 2 s 1 s 0 s 0 s 0 s 0 s 0 s 0
+
+interjection interjection article adjective  s 1 s 1 s 0 s 0 s 0 s 0 s 0 s 0
+
+adverb preposition adjective adverb verb preposition  s 0 s 0 s 0 s 0 s 0 s 0 s 1 s 1
+
+conjunction verb conjunction article  s 0 s 0 s 0 s 0 s 0 s 0 s 1 s 1
+

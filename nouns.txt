@@ -2683,7 +2683,7 @@ noise 0
 nonbeliever 0
 nonconformist 0
 nondisclosure 0
-nonsense 0
+nonsense 1
 noodle 0
 normal 0
 norse 0
@@ -4264,7 +4264,7 @@ twilight 0
 twine 0
 twist 0
 twister 0
-two 0
+two 1
 type 0
 typewriter 0
 typhoon 0

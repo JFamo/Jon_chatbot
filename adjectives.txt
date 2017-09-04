@@ -190,7 +190,7 @@ constant 0
 content 0
 conventional 0
 cooked 0
-cool 0
+cool 1
 cooperative 0
 coordinated 0
 corny 0
@@ -1031,7 +1031,7 @@ slippery 0
 slow 0
 slushy 0
 small 0
-smart 0
+smart 1
 smoggy 0
 smooth 0
 smug 0

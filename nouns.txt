@@ -593,7 +593,7 @@ candle 0
 candy 0
 cane 0
 cannon 0
-canoe 0
+canoe 1
 canon 0
 canopy 0
 canteen 0
@@ -1423,7 +1423,7 @@ escape 0
 ese 0
 espadrille 0
 espalier 0
-essay 0
+essay 1
 establishment 0
 estate 0
 estimate 0
@@ -1748,7 +1748,7 @@ girdle 0
 girl 0
 girlfriend 0
 git 0
-give 0
+give 1
 glad 0
 gladiolus 0
 gland 0
@@ -1900,7 +1900,7 @@ hatchet 0
 hate 0
 hatred 0
 haunt 0
-haversack 0
+haversack 1
 hawk 0
 hay 0
 head 0
@@ -1931,7 +1931,7 @@ hell 0
 hellcat 0
 hello 1
 helmet 0
-helo 0
+helo 1
 help 1
 hemp 0
 hen 0
@@ -2227,10 +2227,10 @@ knife-edge 0
 knight 0
 knitting 0
 knot 0
-knowledge 0
+knowledge 1
 knuckle 0
 koala 0
-kohlrabi 0
+kohlrabi 1
 lab 0
 laborer 0
 labour 0
@@ -2473,7 +2473,7 @@ maybe 0
 mayonnaise 0
 mayor 0
 meal 0
-meaning 0
+meaning 1
 measles 0
 measure 0
 measurement 0
@@ -2667,7 +2667,7 @@ newspaper 0
 newsprint 0
 newsstand 0
 nexus 0
-nicety 0
+nicety 1
 niche 0
 nickel 0
 niece 0
@@ -2995,7 +2995,7 @@ pink 0
 pinkie 0
 pinstripe 0
 pint 0
-pinto 0
+pinto 1
 pinworm 0
 pioneer 0
 pipe 0
@@ -4129,7 +4129,7 @@ titanium 0
 title 0
 toad 0
 toast 0
-today 0
+today 1
 toe 0
 toenail 0
 toga 0
@@ -4393,7 +4393,7 @@ war 0
 warden 0
 warlock 0
 warmth 0
-warm-up 0
+warm-up 1
 warning 0
 wash 0
 washbasin 0
@@ -4429,7 +4429,7 @@ week 0
 weekend 0
 weekender 0
 weight 0
-weird 0
+weird 1
 welcome 1
 welfare 0
 well 1
@@ -4533,7 +4533,7 @@ yew 0
 yin 0
 yoga 0
 yogurt 0
-yoke 0
+yoke 1
 you 0
 young 0
 youth 1

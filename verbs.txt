@@ -904,7 +904,7 @@ slam 0
 spill 0
 stem 0
 sum 0
-summon 0
+summon 1
 supplement 0
 suppress 0
 surprise 0
@@ -990,7 +990,7 @@ penetrate 0
 picture 0
 presume 0
 prevail 0
-pronounce 0
+pronounce 1
 rate 0
 renew 0
 revise 0

@@ -20,6 +20,11 @@ while($doChatLoop == 1){
 #USER INPUT
 	my $my_chat_words = <STDIN>;
 	chomp $my_chat_words;
+	#prevent entering blanks
+	while($my_chat_words eq ""){
+		$my_chat_words = <STDIN>;
+		chomp $my_chat_words;
+	}
 	$my_chat_words = fixString($my_chat_words);
 
 	if($my_chat_words eq "quit"){
@@ -105,7 +110,8 @@ while($doChatLoop == 1){
 		tie @currentDB, 'Tie::File', "articles.txt" or die;
 		for(my $i = 0; $i < @currentDB; $i ++){
 			if(index($currentDB[$i], $interestWord) != -1){
-				if(index($currentDB[$i], "1") != -1){
+				my @temp = split "s", $currentDB[$i];
+				if(index($temp[0], "1") != -1){
 					$hasResponseSaved = 1;
 				}	
 				$interestWordPartOfSpeech = "article";
@@ -312,6 +318,10 @@ while($doChatLoop == 1){
 	@structure = arrayFromStructure($sentenceStructure);
 
 
+	#array to track which articles were used as plurals
+	my @plurals;
+
+
 #GET RANDOM WORDS FROM DATABASE LEVEL 2
 	if($hasResponseSaved == 0){
 
@@ -332,18 +342,69 @@ while($doChatLoop == 1){
 			}
 			else{
 
+				my $plurality = 0;
+
+				my $pluralWord;
+
 				tie @currentDB, 'Tie::File', $structure[$i].".txt" or die;
 
 				my $randIndex = int(rand(@currentDB));
 
 				my $printword = $currentDB[$randIndex] . " ";
+
+				untie @currentDB;
+
+				#PLURALITY
+				#if i am the article
+				if($structure[$i] eq "articles"){
+
+					#grab the plurality value
+					my @tempPlurality = split / /, $printword;
+					$plurality = $tempPlurality[2];
+					$pluralWord = $tempPlurality[0];
+					$printword = $tempPlurality[0] . " ";
+
+				}
+				#if i am the noun
+				if($i > 0 && $structure[$i] eq "nouns" && $structure[$i - 1] eq "articles"){
+
+					#make sure there's some variance on plural picking
+					my $randChance = getRandom();
+
+					#on random chance or with high plurality
+					if($randChance == 0 || $plurality >= 3){
+
+						#make it plural
+						push @plurals, $pluralWord;
+						my @tempPrintword;
+						@tempPrintword = split / /, $printword;
+						$printword = $tempPrintword[0] . "s ";
+
+					}
+
+				}else{
+				if($structure[$i] eq "nouns"){
+
+					#make sure there's some variance on plural picking
+					my $randChance = getRandom();
+
+					#on random chance
+					if($randChance == 0){
+
+						#make it plural
+						my @tempPrintword;
+						@tempPrintword = split / /, $printword;
+						$printword = $tempPrintword[0] . "s ";
+
+					}
+
+				}}
+
 				$printword = join( "", split(" 0", $printword) );
 				$printword = join( "", split(" 1", $printword) );
 
 				print $printword;
 				$output .= $printword;
-
-				untie @currentDB;
 
 			}
 
@@ -451,7 +512,41 @@ if($doChatLoop == 1){
 
 		untie @openDB;
 
+		#update plurals
+		if(@plurals > 0){
 
+			tie @openDB, 'Tie::File', "articles.txt" or die;
+
+			for(my $i = 0; $i < @openDB; $i ++){
+
+				my $article = $openDB[$i];
+				my @articleParts = split / /, $article;
+
+				for(my $q = 0; $q < @plurals; $q ++){
+
+					#if it was used as a plural
+					if($plurals[$q] eq $articleParts[0]){
+
+						#update the counter
+						$articleParts[3] += 1;
+
+						#update the plurality
+						$articleParts[1] = ((($articleParts[3] - 1) * $articleParts[2]) + $rating ) / $articleParts[3];
+
+						#add it to the database
+						$openDB[$i] = join " ", @articleParts;
+
+						last;
+
+					}
+
+				}
+
+			}
+
+			untie @openDB;
+
+		}
 
 	}
 

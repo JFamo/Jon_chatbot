@@ -362,8 +362,6 @@ while($doChatLoop == 1){
 					$plurality = $tempPlurality[2];
 					$pluralWord = $tempPlurality[0];
 					$printword = $tempPlurality[0] . " ";
-					print " (has plurality : " . $plurality . ") ";
-					print " (has word : " . $pluralWord . ") ";
 
 				}
 				#if i am the noun
@@ -372,15 +370,11 @@ while($doChatLoop == 1){
 					#make sure there's some variance on plural picking
 					my $randChance = getRandom();
 
-					print " (noun plurality : " . $plurality . ") ";
-
 					#on random chance or with high plurality
 					if($randChance == 0 || $plurality >= 3){
 
 						#make it plural
 						push @plurals, $pluralWord;
-						print "Making Plural with :".$pluralWord."\n";
-						print "New Plural Length :".@plurals."\n";
 						my @tempPrintword;
 						@tempPrintword = split /\s+/, $printword;
 						$printword = $tempPrintword[0] . "s ";
@@ -397,7 +391,6 @@ while($doChatLoop == 1){
 					if($randChance == 0){
 
 						#make it plural
-						print "Making Plural without word\n";
 						my @tempPrintword;
 						@tempPrintword = split /\s+/, $printword;
 						$printword = $tempPrintword[0] . "s ";
@@ -533,8 +526,6 @@ if($doChatLoop == 1){
 
 					#if it was used as a plural
 					if($plurals[$q] eq $articleParts[0]){
-						print "PluralWord:".$plurals[$q]."\n";
-						print "ArticleP0:".$articleParts[0]."\n";
 
 						#update the counter
 						$articleParts[3] += 1;

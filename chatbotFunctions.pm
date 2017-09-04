@@ -362,7 +362,7 @@ sub isDupeResponse {
 
 	untie @responses;
 
-	return $out;
+	return @out;
 
 }
 
@@ -374,7 +374,7 @@ sub addOccurence {
 
 	for(my $i = 0; $i < @responses; $i ++){
 
-		$array[$i] .= " r 1";
+		$responses[$i] .= " r 1";
 
 	}
 
@@ -385,7 +385,7 @@ sub addOccurence {
 
 sub removeDupes{
 
-	my $splitString = " r ";
+	my $splitString = "r";
 	my @responses;
 
 	tie @responses, 'Tie::File', "responses.txt" or die;
@@ -397,19 +397,14 @@ sub removeDupes{
 		my @tempOriginal = split / $splitString /, $responses[$i];
 
 		#for every other saved response
-		for(my $q = $i; $q < @responses; $q++){
+		for(my $q = $i - 1; $q < @responses; $q++){
 
-			#predict if it is correct
-			if(index($responses[$q], $tempOriginal[0]) != 0){
+			#put the ratings on this structure into an array
+			my @tempResponse = split / $splitString /, $responses[$q];
 
-				#put the ratings on this structure into an array
-				my @tempResponse = split / $splitString /, $responses[$q];
+			if($tempResponse[0] eq $tempOriginal[0]){
 
-				if($tempResponse[0] eq $tempOriginal[0]){
-
-					splice @responses, $q, 1;
-
-				}
+				splice @responses, $q, 1;
 
 			}
 

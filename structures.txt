@@ -995,3 +995,4 @@ adverb noun interjection conjunction conjunction  s 0 s 0 s 1 s 1 s 0 s 0 s 0 s 
 
 adjective preposition interjection interjection  s 0 s 0 s 0 s 0 s 0 s 0 s 3 s 1
 
+verb preposition article interjection preposition  s 0 s 0 s 0 s 0 s 0 s 0 s 0 s 0

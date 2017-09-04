@@ -56,14 +56,19 @@ while($doChatLoop == 1){
 
 	#vars
 	my $interestWordPos;
+	my @tempReturn;
+	our $db1Index;
 	my $randChance = int(rand(10));
 
 	#if I'm gonna use the one with the highest rating
 	if($randChance <= 8){
-		$interestWordPos = highestDB1Position($sentenceType);
+		@tempReturn = highestDB1Position($sentenceType);
+		$interestWordPos = $tempReturn[0];
+		$db1Index = $tempReturn[1];
 	}
 	else{
 		$interestWordPos = int(rand(11)) / 10;
+		$db1Index = getDB1Index($interestWordPos, $sentenceType);
 	}
 
 	#balance interesting word position off of user input size
@@ -395,6 +400,26 @@ if($doChatLoop == 1){
 			}
 
 		}
+
+		untie @openDB;
+
+		#change sentence interest word rating
+		tie @openDB, 'Tie::File', "typeRatings.txt" or die;
+
+			my $splitString = "spl";
+
+			#put the ratings on this structure into an array
+			my @structRatings = split / $splitString /, $openDB[$db1Index];
+
+			#update the amount of uses
+			$structRatings[2] += 1;
+
+			#update the rating
+			$structRatings[1] = ((($structRatings[2] - 1) * $structRatings[1]) + $rating ) / $structRatings[2];
+
+			#add it to the database
+			$openDB[$db1Index] = join " ".$splitString." ", @structRatings;
+			$openDB[$db1Index] .= "\n";
 
 		untie @openDB;
 

@@ -1814,7 +1814,7 @@ gray 0
 grease 0
 great 0
 great-grandfather 0
-great-grandmother 0
+great-grandmother 1
 greek 0
 green 0
 greenhouse 0
@@ -2152,7 +2152,7 @@ jet 0
 jewel 0
 jewelry 0
 jiffy 0
-job 0
+job 1
 jockey 0
 jodhpurs 0
 joey 0
@@ -2281,7 +2281,7 @@ leading 0
 leaf 0
 league 0
 leaker 0
-learning 0
+learning 1
 leash 0
 leather 0
 leave 0
@@ -3111,7 +3111,7 @@ presentation 0
 president 0
 press 0
 pressroom 0
-pressure 0
+pressure 1
 pressurisation 0
 price 0
 pride 0
@@ -3709,7 +3709,7 @@ snowman 0
 snowmobiling 0
 snowplow 0
 snowstorm 0
-snowsuit 0
+snowsuit 1
 snuggle 0
 soap 0
 soccer 0
@@ -4469,7 +4469,7 @@ windscreen 0
 windshield 0
 wine 0
 wing 0
-wingman 0
+wingman 1
 wingtip 0
 winner 0
 winter 0
@@ -4499,7 +4499,7 @@ worker 0
 workhorse 0
 working 0
 worklife 0
-workshop 0
+workshop 1
 world 0
 worm 0
 worry 0
@@ -4545,7 +4545,7 @@ zephyr 0
 ziggurat 0
 zinc 0
 zipper 0
-zither 0
+zither 1
 zone 0
 zoo 0
 zoologist 0

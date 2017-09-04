@@ -112,3 +112,117 @@ adverb interjection conjunction noun verb article noun  s 0 s 0 s 0 s 0 s 0 s 0 
 adjective adjective  s 2 s 1 s 0 s 0 s 0 s 0 s 0 s 0
 
 adverb article interjection preposition article article verb  s 0 s 0 s 0 s 0 s 0 s 0 s 0 s 0
+noun verb article conjunction adverb interjection  s 0 s 0 s 0 s 0 s 0 s 0 s 2 s 1
+
+article adverb article article  s 0 s 0 s 0 s 0 s 0 s 0 s 0 s 0
+interjection conjunction adverb verb conjunction noun adverb  s 0 s 0 s 0 s 0 s 0 s 0 s 0 s 0
+noun conjunction preposition  s 0 s 0 s 0 s 0 s 0 s 0 s 0 s 0
+article noun verb interjection preposition  s 0 s 0 s 0 s 0 s 0 s 0 s 0 s 0
+adjective interjection conjunction interjection noun verb  s 0 s 0 s 0 s 0 s 0 s 0 s 0 s 0
+article interjection  s 0 s 0 s 0 s 0 s 0 s 0 s 2 s 1
+
+interjection interjection adverb interjection  s 0 s 0 s 0 s 0 s 0 s 0 s 0 s 0
+adjective article adjective noun interjection  s 0 s 0 s 0 s 0 s 0 s 0 s 0 s 0
+adverb article article adverb  s 0 s 0 s 0 s 0 s 0 s 0 s 0 s 0
+adjective article article interjection adverb adjective noun  s 0 s 0 s 0 s 0 s 0 s 0 s 0 s 0
+article adjective noun noun conjunction interjection noun  s 2 s 1 s 0 s 0 s 0 s 0 s 0 s 0
+
+article conjunction adverb adjective preposition  s 0 s 0 s 2 s 1 s 0 s 0 s 0 s 0
+
+article adjective  s 0 s 0 s 2 s 1 s 0 s 0 s 2 s 1
+
+
+adjective adverb adjective verb verb noun  s 0 s 0 s 0 s 0 s 0 s 0 s 1 s 1
+
+article adverb noun preposition  s 2 s 1 s 0 s 0 s 0 s 0 s 0 s 0
+
+noun adjective  s 0 s 0 s 0 s 0 s 0 s 0 s 2 s 1
+
+interjection adverb adjective preposition article adverb adverb  s 1 s 1 s 0 s 0 s 0 s 0 s 0 s 0
+
+adverb article  s 2 s 2 s 0 s 0 s 0 s 0 s 0 s 0
+
+
+preposition adverb article verb article  s 1 s 1 s 0 s 0 s 0 s 0 s 0 s 0
+
+article interjection  s 0 s 0 s 0 s 0 s 0 s 0 s 2 s 1
+
+adverb article preposition preposition preposition  s 0 s 0 s 0 s 0 s 0 s 0 s 1 s 1
+
+article adjective  s 0 s 0 s 2 s 1 s 0 s 0 s 0 s 0
+
+adjective conjunction adverb noun article adjective  s 0 s 0 s 0 s 0 s 0 s 0 s 0 s 0
+adverb preposition  s 0 s 0 s 2 s 1 s 0 s 0 s 0 s 0
+
+interjection article article  s 0 s 0 s 0 s 0 s 2 s 1 s 0 s 0
+
+verb verb noun adjective interjection adverb verb  s 0 s 0 s 0 s 0 s 0 s 0 s 1 s 1
+
+article article  s 0 s 0 s 2 s 1 s 0 s 0 s 0 s 0
+
+verb noun verb  s 2 s 1 s 0 s 0 s 0 s 0 s 0 s 0
+
+adverb interjection noun  s 2 s 1 s 0 s 0 s 0 s 0 s 0 s 0
+
+interjection preposition adjective adverb noun  s 0 s 0 s 0 s 0 s 0 s 0 s 2 s 1
+
+interjection verb preposition adverb adjective  s 0 s 0 s 0 s 0 s 0 s 0 s 1 s 1
+
+conjunction conjunction adverb noun noun conjunction  s 0 s 0 s 0 s 0 s 0 s 0 s 1 s 1
+
+adverb adjective noun article verb adjective adjective  s 0 s 0 s 0 s 0 s 0 s 0 s 1 s 1
+
+interjection noun verb article  s 0 s 0 s 0 s 0 s 0 s 0 s 1 s 1
+
+conjunction article adverb interjection interjection  s 0 s 0 s 0 s 0 s 0 s 0 s 1 s 1
+
+article noun conjunction  s 0 s 0 s 0 s 0 s 0 s 0 s 0 s 0
+preposition conjunction adjective adjective conjunction noun  s 0 s 0 s 0 s 0 s 0 s 0 s 1 s 1
+
+verb conjunction article noun verb  s 0 s 0 s 0 s 0 s 0 s 0 s 1 s 1
+
+adverb adjective preposition preposition conjunction interjection adjective  s 1 s 1 s 0 s 0 s 0 s 0 s 0 s 0
+
+interjection noun verb verb preposition adjective article  s 1 s 1 s 0 s 0 s 0 s 0 s 0 s 0
+
+interjection conjunction preposition noun adverb  s 0 s 0 s 0 s 0 s 0 s 0 s 1 s 1
+
+article noun interjection noun  s 0 s 0 s 0 s 0 s 0 s 0 s 2.75 s 4
+
+preposition adverb preposition  s 0 s 0 s 0 s 0 s 0 s 0 s 2 s 2
+
+noun conjunction  s 2 s 1 s 0 s 0 s 0 s 0 s 0 s 0
+
+preposition adjective  s 0 s 0 s 0 s 0 s 0 s 0 s 1 s 1
+
+article interjection conjunction noun article conjunction adverb  s 0 s 0 s 0 s 0 s 0 s 0 s 1 s 1
+
+verb adjective interjection  s 1 s 1 s 0 s 0 s 0 s 0 s 0 s 0
+
+noun noun adjective adjective  s 0 s 0 s 0 s 0 s 0 s 0 s 1 s 1
+
+interjection interjection preposition conjunction  s 0 s 0 s 0 s 0 s 0 s 0 s 1 s 1
+
+preposition adjective adverb conjunction preposition verb interjection  s 1 s 1 s 0 s 0 s 0 s 0 s 0 s 0
+
+noun preposition interjection conjunction  s 2 s 1 s 0 s 0 s 0 s 0 s 0 s 0
+
+preposition conjunction preposition verb adjective  s 1 s 1 s 0 s 0 s 0 s 0 s 0 s 0
+
+adverb verb conjunction adverb conjunction interjection  s 1 s 1 s 0 s 0 s 0 s 0 s 0 s 0
+
+conjunction verb verb  s 1 s 1 s 0 s 0 s 0 s 0 s 0 s 0
+
+adverb interjection preposition  s 1 s 1 s 0 s 0 s 0 s 0 s 0 s 0
+
+article article adverb  s 1 s 1 s 0 s 0 s 0 s 0 s 0 s 0
+
+article interjection conjunction article conjunction adverb interjection  s 1 s 1 s 0 s 0 s 0 s 0 s 0 s 0
+
+preposition adverb verb noun preposition verb preposition  s 1 s 1 s 0 s 0 s 0 s 0 s 0 s 0
+
+interjection adjective interjection  s 2 s 2 s 0 s 0 s 0 s 0 s 0 s 0
+
+
+conjunction conjunction  s 3 s 1 s 0 s 0 s 0 s 0 s 0 s 0
+

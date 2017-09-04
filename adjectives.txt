@@ -1139,7 +1139,7 @@ terrible 1
 terrific 0
 testy 0
 thankful 0
-that 0
+that 1
 these 0
 thick 0
 thin 0

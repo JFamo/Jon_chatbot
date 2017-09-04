@@ -6,10 +6,10 @@ use Exporter;
 our @ISA= qw( Exporter );
 
 # these CAN be exported.
-our @EXPORT_OK = qw( isValidWord textFileToArray isProbableQuestion fixString isProbableImperative isProbableExclamatory makeSentenceStructure responseKeyType arrayFromStructure highestDB1Position );
+our @EXPORT_OK = qw( isValidWord textFileToArray isProbableQuestion fixString isProbableImperative isProbableExclamatory makeSentenceStructure responseKeyType arrayFromStructure highestDB1Position getDB1Index );
 
 # these are exported by default.
-our @EXPORT = qw( isValidWord textFileToArray isProbableQuestion fixString isProbableImperative isProbableExclamatory makeSentenceStructure responseKeyType arrayFromStructure highestDB1Position );
+our @EXPORT = qw( isValidWord textFileToArray isProbableQuestion fixString isProbableImperative isProbableExclamatory makeSentenceStructure responseKeyType arrayFromStructure highestDB1Position getDB1Index );
 
 sub isValidWord{
 
@@ -246,12 +246,13 @@ sub highestDB1Position {
 
 	#vars
 	my $sentenceType = $_[0];
-	my $mindex;
+	my $mindex = 0;
 	my $highValue = 0;
-	my $highIndex = $mindex;
+	our $highIndex = $mindex;
 	my @interestWordsArray;
 	my $splitString = "spl";
 	my $outPos = 0;
+	my @out;
 
 	#where in the database should I start?
 	if($sentenceType == 1){
@@ -287,9 +288,21 @@ sub highestDB1Position {
 
 	}
 
+	push @out, $outPos;
+	push @out, $highIndex;
+
 	untie @interestWordsArray;
 
-	return $outPos;
+	return @out;
+
+}
+
+sub getDB1Index{
+
+	my $val = $_[0];
+	my $sentenceType = $_[1];
+
+	return (10 * $val) + (11 * ($sentenceType - 1));
 
 }
 

@@ -513,7 +513,6 @@ if($doChatLoop == 1){
 
 		#update plurals
 		if(@plurals > 0){
-			print "Plurals:".@plurals."\n";
 
 			tie @openDB, 'Tie::File', "articles.txt" or die;
 

@@ -828,7 +828,7 @@ past 0
 pastel 0
 peaceful 0
 peppery 0
-perfect 0
+perfect 1
 perfumed 0
 periodic 0
 perky 0

@@ -96,7 +96,7 @@ ambassador 0
 ambition 0
 ambulance 0
 amendment 0
-amount 0
+amount 1
 amusement 0
 anagram 0
 analgesia 0
@@ -3061,7 +3061,7 @@ pompom 0
 poncho 0
 pond 0
 pony 0
-poof 0
+poof 1
 pool 0
 pop 0
 popcorn 0
@@ -3384,7 +3384,7 @@ rise 0
 riser 0
 risk 0
 river 0
-riverbed 0
+riverbed 1
 rivulet 0
 road 0
 roadway 0
@@ -3764,7 +3764,7 @@ spark 0
 sparrow 0
 spasm 0
 speaker 0
-speakerphone 0
+speakerphone 1
 spear 0
 special 0
 specialist 0
@@ -4404,7 +4404,7 @@ wasp 0
 waste 0
 wastebasket 1
 watch 0
-watchmaker 0
+watchmaker 1
 water 0
 waterbed 0
 waterfall 0
@@ -4453,7 +4453,7 @@ white 0
 whole 0
 wholesale 0
 wholesaler 0
-whorl 0
+whorl 1
 width 0
 wife 0
 wilderness 0

@@ -884,7 +884,7 @@ desire 0
 diminish 0
 drown 0
 embark 0
-entail 0
+entail 1
 entertain 0
 figure 0
 fling 0

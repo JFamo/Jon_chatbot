@@ -22,7 +22,7 @@ bye 0
 cheers 0
 come on 0
 cool 0
-cowabunga 0
+cowabunga 1
 dang 0
 darn 0
 dear me 0

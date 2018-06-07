@@ -26,5 +26,5 @@ ninety 0 3 1
 one-hundred 0 3 5
 one-thousand 0 3 0
 ten-thousand 0 3 1
-one-hundred-thousand 0 3 1
+one-hundred-thousand 1 3 1
 one-million 0 1 1

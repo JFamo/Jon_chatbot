@@ -70,7 +70,7 @@ huh 1
 ick 0
 indeed 1
 jeez 0
-kaboom 0
+kaboom 1
 kapow 0
 lordy 1
 mama mia 1

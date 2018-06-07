@@ -1,3 +1,11 @@
+verb preposition article noun  s 3.6 s 15 s 3.63636363636364 s 11 s 4.66666666666667 s 6 s 3.20000000000001 s 15
+
+
+
+verb article adjective noun  s 4.375 s 8 s 5 s 5 s 4.66666666666667 s 6 s 4.66666666666667 s 6
+
+verb preposition article adjective noun  s 4.375 s 8 s 5 s 5 s 4.66666666666667 s 6 s 4.66666666666667 s 6
+
 preposition adverb conjunction preposition interjection verb verb preposition  s 0 s 0 s 0 s 0 s 0 s 0 s 1 s 1
 
 verb adverb adjective verb preposition adjective adjective interjection noun verb adverb  s 0 s 0 s 1 s 1 s 0 s 0 s 0 s 0
@@ -1351,4 +1359,22 @@ preposition adjective verb noun adjective noun  s 0 s 0 s 0 s 0 s 0 s 0 s 1 s 1
 article adjective article noun adjective verb  s 0 s 0 s 0 s 0 s 0 s 0 s 1 s 1
 
 preposition noun verb preposition  s 0 s 0 s 3 s 1 s 0 s 0 s 0 s 0
+
+noun conjunction verb adjective preposition adjective conjunction  s 0 s 0 s 0 s 0 s 0 s 0 s 1 s 1
+
+preposition verb preposition adverb conjunction verb preposition  s 0 s 0 s 1 s 1 s 0 s 0 s 0 s 0
+
+noun conjunction adverb noun article noun preposition  s 2 s 1 s 0 s 0 s 0 s 0 s 0 s 0
+
+adverb noun  s 0 s 0 s 3 s 1 s 0 s 0 s 0 s 0
+
+interjection adjective preposition verb preposition  s 0 s 0 s 3 s 1 s 0 s 0 s 0 s 0
+
+article verb article interjection verb interjection  s 0 s 0 s 0 s 0 s 0 s 0 s 1 s 1
+
+noun adverb preposition article article interjection preposition  s 0 s 0 s 1 s 1 s 0 s 0 s 0 s 0
+
+article adjective conjunction conjunction interjection  s 0 s 0 s 0 s 0 s 0 s 0 s 1 s 1
+
+adjective preposition noun interjection  s 0 s 0 s 1 s 1 s 0 s 0 s 0 s 0
 

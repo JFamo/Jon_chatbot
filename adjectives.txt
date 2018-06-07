@@ -276,7 +276,7 @@ dreary 0
 dirty 0
 disguised 0
 dishonest 0
-dismal 0
+dismal 1
 distant 0
 distinct 0
 distorted 0

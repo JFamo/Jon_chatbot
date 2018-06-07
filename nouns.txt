@@ -719,7 +719,7 @@ chateau 0
 chauffeur 0
 chauvinist 0
 check 0
-checkroom 0
+checkroom 1
 cheek 0
 cheetah 0
 chef 0
@@ -731,7 +731,7 @@ cherry 0
 chess 0
 chest 0
 chick 0
-chicken 0
+chicken 1
 chicory 0
 chief 0
 chiffonier 0
@@ -1479,7 +1479,7 @@ eyelashes 0
 eyelid 0
 eyelids 0
 eyeliner 0
-eyestrain 0
+eyestrain 1
 face 0
 facelift 0
 facet 0
@@ -3582,7 +3582,7 @@ shed 0
 sheep 0
 sheet 0
 shelf 0
-shell 0
+shell 1
 shelter 0
 sherry 0
 shield 0
@@ -3923,7 +3923,7 @@ subcomponent 0
 subconscious 0
 subject 0
 submarine 0
-subroutine 0
+subroutine 1
 subsidence 0
 substance 0
 suburb 0
@@ -3986,7 +3986,7 @@ swimsuit 0
 swing 0
 swiss 0
 switch 0
-switchboard 0
+switchboard 1
 swivel 0
 sword 0
 swordfish 0

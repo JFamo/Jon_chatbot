@@ -81,7 +81,7 @@ one-hundred fill going an depend forty  r 1 r 1
 whenever seriously fear administer  r 1 r 1
 topsail cool optimistically blow extra-large through  r 1 r 1
 nutrition two since holy mackerel forty  r 2 r 1
-jealously even though  r 3 r 1
+jealously even though  r 2.5 r 2
 produce one-hundred-thousand even if softly that  r 2 r 1
 nor majestically although  r 2 r 1
 luggage ry dear me  r 1 r 1
@@ -104,7 +104,7 @@ fat or some  r 2.5 r 2
 wetly place  r 3 r 1
 along whispered  r 2.66666666666667 r 3
 sedately reach  r 3 r 1
-randomly position  r 3 r 4
+randomly position  r 2.83333333333333 r 6
 rightfully regard  r 3.5 r 2
 sharply assess  r 3 r 2
 busily grab  r 3 r 1
@@ -129,7 +129,7 @@ a-ha eighty wary the happily a  r 1 r 1
 perfect grave boy pause along  r 2 r 1
 searchingly pretend  r 3 r 1
 keenly fold  r 3 r 1
-eventually please  r 3 r 3
+eventually please  r 2.75 r 4
 slowly discuss  r 2 r 1
 stop up precede eel unless until boo hoo  r 2 r 1
 kaboom lose per fifty  r 1 r 1
@@ -155,7 +155,7 @@ within nope  r 2.5 r 2
 welcome enthusiastically near ninety amid  r 2 r 2
 target behave one sticky chipmunk  r 2 r 2
 lord bah  r 2 r 1
-lord come on  r 3.5 r 4
+lord come on  r 3.6 r 5
 lord see you soon  r 1 r 1
 lord when one challenge ninety by nor  r 1 r 1
 via bye  r 2 r 1
@@ -185,7 +185,7 @@ inwardly thick  r 3 r 1
 several sleep though since while  r 1 r 1
 kindly buoyant  r 3 r 1
 still quick-witted  r 4 r 2
-roughly dismal  r 3 r 1
+roughly dismal  r 2.5 r 2
 believe you recklessly a  r 1 r 1
 justly puny  r 3 r 1
 one-million as despite oppose emerge  r 1 r 1
@@ -199,10 +199,10 @@ intensely beautiful  r 3 r 3
 irritably educated  r 3 r 1
 restfully false  r 3 r 1
 to cost  r 2.5 r 2
-before oar persist  r 1 r 1
+before oar persist  r 1 r 4
 before oar persist  r 3 r 1
-what's up with right  r 3 r 6
-analyst sten-thousand thaw the till lynx  r 3 r 1
+what's up with right  r 3 r 8
+analyst sten-thousand thaw the till lynx  r 2 r 2
 examiner sten porthole fifty dark shoe  r 1 r 1
 examiner sten porthole fifty dark shoe  r 3 r 1
 fiercely ankle sho ho ho eight  r 4 r 1
@@ -245,13 +245,13 @@ since minor for baloney opposite  r 1 r 1
 intervene what surprisingly giddyap embrace  r 1 r 1
 good grief sentence sharply among sociable mundane specials  r 1 r 1
 see anklets golly while for new siding  r 1 r 1
-good nonstop  r 3.4 r 5
+good nonstop  r 3.33333333333333 r 6
 flats evening-wear casement seven one-hundred boy  r 1 r 1
 majestically lasting  r 3 r 1
 shape within see you later until  r 1 r 1
 power than no jovial consult have  r 1 r 1
 whenever welcome hip, hip, hooray an for  r 1 r 1
-formal yes  r 3 r 3
+formal yes  r 3 r 4
 improve compassionate few one-hundred-thousand faint bravo  r 1 r 1
 tough apparatuss  r 3 r 1
 noun den  r 2 r 1
@@ -454,7 +454,7 @@ supposedly by minus amen mention brightly beyond  r 1 r 1
 bull no problem lyrics what careful past  r 1 r 1
 light blank one-million till so that  r 1 r 1
 poof call  r 3 r 1
-see you later poof  r 3.5 r 2
+see you later poof  r 3.33333333333333 r 3
 who hateful  r 2 r 1
 great budget  r 3 r 1
 even if heavily dynamos but  r 1 r 1
@@ -473,3 +473,23 @@ plus keen associate veil cold blossom  r 1 r 1
 thirty pretty the attitude bitter finish  r 1 r 1
 beyond peak miss through  r 3 r 1
 nifty helpfully before  r 1 r 1
+cop-out after arise questionable across ill-fated whenever  r 1 r 1
+ask over thirty structure  r 3 r 1
+tighten inside seven job  r 3 r 1
+judge towards the freighter  r 3 r 1
+preserve round eighty bro  r 4 r 1
+constitute underneath forty chicken  r 3 r 1
+value in ten-thousand barbers  r 2 r 1
+outside rid beneath dreamily as long as ease off  r 1 r 1
+mind among eight are  r 1 r 1
+expand despite one-hundred verandas  r 3 r 1
+correspond opposite seven roundabouts  r 3 r 1
+almost heck  r 3 r 2
+condemn  one-hundred hell  r 1 r 1
+happen upon four conversations  r 3 r 1
+impress against some adulthoods  r 3 r 1
+oar freely behind few one-million oh beside  r 1 r 1
+import  fifty too  r 3 r 1
+plain toward are good morning  r 1 r 1
+remember about ten-thousand eyelids  r 3 r 1
+contemplate under seventy eyes  r 2 r 1

@@ -1,30 +1,30 @@
 0 spl 1.72602739726027 spl 73
 
-0.1 spl 2 spl 8
+0.1 spl 2.11111111111111 spl 9
 
-0.2 spl 2 spl 4
+0.2 spl 2.2 spl 5
 
 0.3 spl 2 spl 14
 
 0.4 spl 2 spl 5
 
-0.5 spl 1.8 spl 5
+0.5 spl 2 spl 6
 
 0.6 spl 2 spl 1
 
-0.7 spl 1.25 spl 4
+0.7 spl 1.6 spl 5
 
-0.8 spl 1 spl 1
+0.8 spl 2 spl 2
 
 0.9 spl 2.11979166666673 spl 192
 
-1 spl 2.33333333333333 spl 3
+1 spl 2.55555555555556 spl 9
 
 0 spl 1 spl 4
 
 0.1 spl 1.6 spl 5
 
-0.2 spl 2.2 spl 20
+0.2 spl 2.19354838709676 spl 31
 
 0.3 spl 1 spl 1
 
@@ -43,7 +43,7 @@
 1 spl 1.6595744680851 spl 94
 
 0 spl 0 spl 0
-0.1 spl 2.06666666666667 spl 15
+0.1 spl 2.125 spl 16
 
 0.2 spl 0 spl 0
 0.3 spl 2 spl 1
@@ -58,11 +58,11 @@
 0.8 spl 0 spl 0
 0.9 spl 0 spl 0
 1 spl 0 spl 0
-0 spl 2.2 spl 10
+0 spl 2.16666666666666 spl 12
 
 0.1 spl 2.21428571428572 spl 14
 
-0.2 spl 2.28326180257509 spl 233
+0.2 spl 2.27049180327869 spl 244
 
 0.3 spl 1.71428571428571 spl 7
 

@@ -2423,7 +2423,7 @@ mangrove 0
 manhunt 0
 maniac 0
 manicure 0
-mankind 0
+mankind 1
 manner 0
 manor 0
 mansard 0
@@ -4498,7 +4498,7 @@ workbench 0
 worker 0
 workhorse 0
 working 0
-worklife 0
+worklife 1
 workshop 1
 world 0
 worm 0

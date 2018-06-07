@@ -13,7 +13,7 @@ hooray majestically but unlike sense few lazily  r 1 r 1
 embarrassed unless nope good evening freeze darn against check anti  r 1 r 1
 deny sentence breed whenever especially sometimes mansard even though of regarding brochure gosh  r 1 r 1
 more good tender detailed poultry gather again rise project squiggly run  r 1 r 1
-few sense hate  r 3.33333333333333 r 6
+few sense hate  r 3.19999999999999 r 10
 yummy whenever as if nine eighty  r 1 r 1
 it likely pinworm attic anxious bound vainly beside yabba dabba do oblong brrr constitute  r 1 r 1
 again dreamily proud two awkwardly charge educate near many dearest dependable inhibit  r 1 r 1
@@ -86,7 +86,7 @@ produce one-hundred-thousand even if softly that  r 2 r 1
 nor majestically although  r 2 r 1
 luggage ry dear me  r 1 r 1
 restrict solidly as long as brrr hourly what thrifty  r 1 r 1
-silent understand  r 3 r 3
+silent understand  r 3 r 5
 reveal strap  r 3 r 1
 one-thousand surprise deceivingly but  r 1 r 1
 apt unless it  r 1 r 1
@@ -98,9 +98,9 @@ capital potential  r 2 r 1
 one rescue blond nor  r 2 r 1
 oh beneath  r 2 r 1
 halt as long as mockingly feast smoothly nine obnoxiously  r 1 r 1
-doubtfully arrest  r 3 r 3
+doubtfully arrest  r 2.8 r 5
 speedily transfer  r 3 r 1
-fat or some  r 3 r 1
+fat or some  r 2.5 r 2
 wetly place  r 3 r 1
 along whispered  r 3 r 1
 sedately reach  r 3 r 1
@@ -110,11 +110,11 @@ sharply assess  r 3 r 2
 busily grab  r 3 r 1
 general four  r 2 r 1
 mostly incur  r 3 r 1
-trusting one-hundred-thousand  r 3 r 3
+trusting one-hundred-thousand  r 2.75 r 4
 sick a  r 1 r 1
 helplessly one mostly  r 2 r 1
 certainly formulate  r 3 r 1
-wherever wet kiddingly boo  r 3 r 1
+wherever wet kiddingly boo  r 3.5 r 2
 wherever wet kiddingly boo  r 3 r 1
 babyish obvious  r 2 r 1
 innocently palatable round fulfil so that heigh ho  r 1 r 1
@@ -123,20 +123,20 @@ thirty nor reveal whenever but as if  r 2 r 1
 only ride  r 3 r 1
 five besides  r 2 r 1
 via do criticize shoulder pvc bada bing  r 2 r 1
-knowingly hard-to-find  r 3.33333333333333 r 3
+knowingly hard-to-find  r 2.8 r 5
 instantly cowabunga mention for one-hundred-thousand  r 2 r 1
 a-ha eighty wary the happily a  r 1 r 1
 perfect grave boy pause along  r 2 r 1
 searchingly pretend  r 3 r 1
 keenly fold  r 3 r 1
-eventually please  r 3 r 2
+eventually please  r 3 r 3
 slowly discuss  r 2 r 1
 stop up precede eel unless until boo hoo  r 2 r 1
 kaboom lose per fifty  r 1 r 1
 purchase tense  r 2 r 1
 wrong yet expect an  r 3 r 1
 huh so thing  r 3 r 1
-swell until back r 3 r 4
+swell until back r 3 r 5
 stop wherever assure one-hundred  r 2 r 1
 nah whenever reactant  r 4 r 1
 dang is amount ordinary though one-thousand  r 2 r 1
@@ -195,13 +195,13 @@ sure eh because behind speedily excitedly  r 1 r 1
 dishonest once nine sharply deliver  r 1 r 1
 truly unequaled  r 3 r 1
 shingle one-thousand  r 1 r 1
-intensely beautiful  r 3 r 2
+intensely beautiful  r 3 r 3
 irritably educated  r 3 r 1
 restfully false  r 3 r 1
-to cost  r 3 r 1
+to cost  r 2.5 r 2
 before oar persist  r 1 r 1
 before oar persist  r 3 r 1
-what's up with right  r 4 r 1
+what's up with right  r 3.5 r 2
 analyst sten-thousand thaw the till lynx  r 3 r 1
 examiner sten porthole fifty dark shoe  r 1 r 1
 examiner sten porthole fifty dark shoe  r 3 r 1
@@ -210,7 +210,7 @@ into no sensitive thirty song sparrot  r 1 r 1
 tensely pointed  r 3 r 1
 mockingly dental  r 3 r 1
 willfully pricey  r 3 r 1
-knowledgeably behind  r 3 r 1
+knowledgeably behind  r 2.66666666666667 r 3
 shows one-million interferometers nine frames tornado  r 1 r 1
 quizzically woeful  r 3 r 1
 sentence  dead  camel seagull  r 1 r 1
@@ -245,13 +245,13 @@ since minor for baloney opposite  r 1 r 1
 intervene what surprisingly giddyap embrace  r 1 r 1
 good grief sentence sharply among sociable mundane specials  r 1 r 1
 see anklets golly while for new siding  r 1 r 1
-good nonstop  r 3.66666666666667 r 3
+good nonstop  r 3.5 r 4
 flats evening-wear casement seven one-hundred boy  r 1 r 1
 majestically lasting  r 3 r 1
 shape within see you later until  r 1 r 1
 power than no jovial consult have  r 1 r 1
 whenever welcome hip, hip, hooray an for  r 1 r 1
-formal yes  r 3.5 r 2
+formal yes  r 3 r 3
 improve compassionate few one-hundred-thousand faint bravo  r 1 r 1
 tough apparatuss  r 3 r 1
 noun den  r 2 r 1
@@ -307,7 +307,7 @@ though part waterlogged eighty hateful though  r 1 r 1
 finish inherit direct les and indelible foul  r 1 r 1
 following until compile downright the socks  r 1 r 1
 plus coaxingly  r 2 r 1
-that one  r 3.25 r 4
+that one  r 2.85714285714286 r 7
 murmur nine  r 3 r 1
 raise three  r 3 r 1
 desire eight  r 3 r 1
@@ -317,7 +317,7 @@ rent an  r 1 r 1
 no round campaign superb  r 1 r 1
 ninety clips twenty judges one-hundred dolmans one squirrels  r 2 r 1
 one-million astronomys thirty weeders fifty shots eight veils  r 1 r 1
-one sense a manhunt four whales seven bores  r 3 r 1
+one sense a manhunt four whales seven bores  r 3 r 2
 ten sycamores one-hundred-thousand sharons the airlines one-hundred resources  r 3 r 1
 one-hundred raiments six chips sixty permafrosts the garters  r 3 r 1
 one job one discoverys twenty buckets many bronzes  r 2 r 1
@@ -419,3 +419,29 @@ curly majestically grandiose  r 3 r 1
 while dual to declare ten-thousand appeal  r 2 r 1
 verifiable coaxingly turbulent  r 2 r 1
 have while even though minion  r 1 r 1
+one-hundred plus guy excepting bid dutiful thirty  r 1 r 1
+judgment resemble until frayed whether  r 1 r 1
+wooden behind dopey concerning  r 1 r 1
+or unless nonsense howdy even though  r 1 r 1
+via innocent onto  r 1 r 1
+about maybe extract racisms bull regret  r 1 r 1
+you entitle jubilantly kookily realise hateful slam  r 2 r 1
+sometimes successfully deliberately reinforce hard subdued  r 1 r 1
+my goodness forty you or an tom  r 1 r 1
+bravo sixty few cultured  r 2 r 1
+amid dimwitted between green state  r 1 r 1
+octave wherever push desserts one-hundred-thousand many queasily  r 1 r 1
+approve behind  r 3 r 1
+pass tidy always  r 3 r 1
+exceed toward  r 2 r 1
+climb superior blissfully  r 2 r 1
+twenty while needle mealy about boo  r 2 r 1
+eat immediately  r 4 r 1
+demand ha  r 3 r 1
+tone upon dearly show-stopper no problem participate  r 1 r 1
+cowabunga boast made hourly shine gee weepy  r 1 r 1
+begin fabulous  r 3 r 1
+reinforce playfully  r 3 r 1
+print kindheartedly  r 3 r 1
+characterise afterwards  r 3 r 1
+hurry good morning  r 2 r 1

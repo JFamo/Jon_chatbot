@@ -900,7 +900,7 @@ quaint 0
 qualified 0
 quarrelsome 0
 quarterly 0
-queasy 0
+queasy 1
 querulous 0
 questionable 0
 quick 0
@@ -1289,7 +1289,7 @@ well-documented 0
 well-groomed 0
 well-informed 0
 well-lit 0
-well-made 0
+well-made 1
 well-off 0
 well-to-do 0
 well-worn 0
